@@ -1,43 +1,43 @@
-![Portada](./assets/image.png)
+![Cover](./assets/image.png)
 
-# 🦄 Portfolios Dev
+# 🦄 Dev Portfolios
 
-Una colección única de plantillas de portafolios para desarrolladores. Obtén un portafolio profesional, moderno y personalizable, resalta tus proyectos, tu experiencia y destaca en el mundo tech con diseños que impresionan.
+A unique collection of developer portfolio templates. Get a professional, modern and customizable portfolio, highlight your projects, your experience and stand out in the tech world with impressive designs.
 
-## 📖 Tabla de contenidos
+## 📖 Table of Contents
 
-- [🙌 Motivación](#-motivaci%C3%B3n)
-- [👀 Características](#-caracter%C3%ADsticas)
+- [🙌 Motivation](#-motivation)
+- [👀 Features](#-features)
 - [📦 Stack](#-stack)
-- [✨ Plantillas](#-plantillas)
-  - [🦄 Unicorn Sparkle](#-unicorn-sparkle)
-  - [🔮 Mistical Unicorn](#-mistical-unicorn)
-- [❤️ Plantillas de la comunidad](#%EF%B8%8F-plantillas-de-la-comunidad)
-  - [🌈 Rainbow Unicorn](#-rainbow-unicorn)
-- [🤝 Contribuir](#-contribuir)
-- [📈 Actividad](#-actividad)
-- [📄 Licencia](#-licencia)
+- [✨ Templates](#-templates)
+- [🦄 Unicorn Sparkle](#-unicorn-sparkle)
+- [🔮 Mistical Unicorn](#-mistical-unicorn)
+- [❤️ Community Templates](#-community-templates)
+- [🌈 Rainbow Unicorn](#-rainbow-unicorn)
+- [🤝 Contribute](#-contribute)
+- [📈 Activity](#-activity)
+- [📄 License](#-license)
 
 ## 🙌 Motivación
 
-[Ana Rangel][anarangel], creadora de [UXCorpRangel][uxcorprangel], diseñó esta colección de portafolios como un tributo a la comunidad que la ayudó en el desarrollo de su [portafolio][portafolio]. Ana decidió devolver ese valor con plantillas que cualquier desarrollador pueda usar para mejorar su propio portafolio. Estas plantillas no solo reflejan su creatividad y experiencia, sino que también son una herramienta accesible para que otros desarrolladores destaquen sus proyectos y habilidades de manera profesional.
+[Jordan Wooding][baymax], creator of [Full-Stack Developer][web-application], designed this collection of portfolios as a tribute to the community that helped her develop her [portfolio][portfolio]. Ana decided to give back with templates that any developer can use to enhance their own portfolio. Not only do these templates reflect her creativity and expertise, but they are also an accessible tool for other developers to highlight their projects and skills in a professional manner.
 
-## 👀 Características
+## 👀 Features
 
-- ⭐ Diseño moderno y personalizable.
-- 🖥️ Diseño adaptable a diferentes tamaños de pantalla.
-- 🌎 Disponible para múltiples idiomas.
-- 🚀 Dependencias actualizadas.
-- ⚡ Enfoque en el rendimiento.
-- 🌗 Soporte para tema claro y oscuro.
+- ⭐ Modern and customizable design.
+- 🖥️ Responsive design for different screen sizes.
+- 🌎 Available for multiple languages.
+- 🚀 Up-to-date dependencies.
+- ⚡ Focus on performance.
+- 🌗 Support for light and dark theme.
 
 ## 📦 Stack
 
-- 🚀 [Astro](https://astro.build/) - El framework web para sitios web basados en contenidos.
-- 🏷️ [Typescript](https://www.typescriptlang.org/) - JavaScript con sintaxis para tipos.
-- 💅 [Sanitize.css](https://github.com/csstools/sanitize.css) - Una colección de estilos de reset CSS.
+- 🚀 [Astro](https://astro.build/) - The web framework for content-driven websites.
+- 🏷️ [Typescript](https://www.typescriptlang.org/) - JavaScript with type syntax.
+- 💅 [Sanitize.css](https://github.com/csstools/sanitize.css) - A collection of CSS reset styles.
 
-## ✨ Plantillas
+## ✨ Templates
 
 ### [🦄 Unicorn Sparkle][unicorn-sparkle-folder]
 
@@ -48,118 +48,80 @@ Una colección única de plantillas de portafolios para desarrolladores. Obtén 
 [![Lighthouse Best Practices Badge][best-practices-badge]][pagespeed]
 [![Lighthouse SEO Badge][seo-badge]][pagespeed]
 
-#### 🔗 Enlaces
+#### 🔗 Links
 
-[![Diseño de Unicorn Sparkle][figma-badge]][figma]
-[![Sitio web de Unicorn Sparkle][demo-badge]][demo]
+[![Unicorn Sparkle Design][figma-badge]][figma]
+[![Unicorn Sparkle Website][demo-badge]][demo]
 
-#### 🤔 ¿Cómo usar?
+#### 🤔 How to use?
 
-Para utilizar la plantilla [Unicorn Sparkle][unicorn-sparkle-folder] puedes copiar y ejecutar el siguiente comando en tu terminal:
+To use the [Unicorn Sparkle][unicorn-sparkle-folder] template you can copy and run the following command in your terminal:
 
-Con NPM:
-
-```bash
-npm create astro@latest -- --template UXCorpRangel/portfolios-dev/unicorn-sparkle
-```
-
-Con PNPM:
+With NPM:
 
 ```bash
-pnpm create astro@latest -- --template UXCorpRangel/portfolios-dev/unicorn-sparkle
+npm create astro@latest
 ```
 
-Luego entra en la carpeta de tu portafolio, instala las dependencias y ¡listo! 🎉.
+With PNPM:
 
-[👉 Leer más][unicorn-sparkle-folder]
+```bash
+pnpm create astro@latest
+```
 
-### [🔮 Mistical Unicorn][mistical-unicorn-folder]
+Then go into your portfolio folder, install the dependencies and that's it! 🎉.
+
+[👉 Read more][unicorn-sparkle-folder]
+
+### [🔮 Mystical Unicorn][mystical-unicorn-folder]
 
 > [!IMPORTANT]
-> 🚧 En construcción 🚧
+> 🚧 Under construction 🚧
 
-## ❤️ Plantillas de la comunidad
+## ❤️ Community Templates
 
 ### [🌈 Rainbow Unicorn][rainbow-unicorn-folder]
 
 [![Rainbow Unicorn](./rainbow-unicorn/assets/rainbow-unicorn.gif)][rainbow-unicorn-folder]
 
-Plantilla para desarrolladores que quieren tener un portafolio con un diseño tipo Bento minimalista y con una funcionalidad espectacular de reorganizar secciones.
+Template for developers who want to have a portfolio with a minimalist Bento-style design and with a spectacular functionality of reorganizing sections.
 
-#### 🔗 Enlaces
+#### 🔗 Links
 
-[![Repositorio][github-badge]][rainbow-unicorn-repo]
-[![Sitio web de Rainbow Unicorn][demo-badge]][rainbow-unicorn-demo]
+[![Repository][github-badge]][rainbow-unicorn-repo]
+[![Rainbow Unicorn website][demo-badge]][rainbow-unicorn-demo]
 
 #### 📦 Stack
 
-- ⚡ [Vite](https://vitejs.dev/) - Herramienta de creación rápida que impulsa la próxima generación de aplicaciones web.
-- ⚛️ [React](https://react.dev/) - Librería de JavaScript para construir interfaces de usuario.
-- 💅 [CSS](https://lenguajecss.com/css/) - Lenguaje de estilo para páginas web.
-- 🏷️ [Typescript](https://www.typescriptlang.org/) - JavaScript con sintaxis para tipos.
+- ⚡ [Vite](https://vitejs.dev/) - Rapid authoring tool that powers the next generation of web applications.
+- ⚛️ [React](https://react.dev/) - JavaScript library for building user interfaces.
+- 💅 [CSS](https://lenguajecss.com/css/) - Style language for web pages.
+- 🏷️ [Typescript](https://www.typescriptlang.org/) - JavaScript with type syntax.
 
-#### 🤔 ¿Cómo usar?
+#### 🤔 How to use?
 
-Para utilizar la plantilla [Rainbow Unicorn][rainbow-unicorn-folder] puedes copiar y ejecutar el siguiente comando en tu terminal:
+To use the [Rainbow Unicorn][rainbow-unicorn-folder] template you can copy and run the following command in your terminal:
 
-Con NPM:
+Then go into your portfolio folder, install the dependencies and you're done! 🎉.
 
-```bash
-npx giget@latest gh:UXCorpRangel/portfolios-dev/rainbow-unicorn myPortfolio
-```
+### 👀 Other templates
 
-Con PNPM:
-
-```bash
-pnpx giget@latest gh:UXCorpRangel/portfolios-dev/rainbow-unicorn myPortfolio
-```
-
-Luego entra en la carpeta de tu portafolio, instala las dependencias y ¡listo! 🎉.
-
-### 👀 Otras plantillas
-
-Descubre quién está usando o se inspiró por esta colección de plantillas para crear su propio portafolio.
+Find out who is using or was inspired by this collection of templates to create their own portfolio.
 
 #### <img src="./assets/icons/html5.svg" height="14" alt="HTML 5" style="transform: translateY(1.2px)"> Vanilla
 
-- [Portfolio_with_UX_UI_Design](https://github.com/Edu980-8/Portfolio_with_UX_UI_Design) - [Ver demo](https://edu980-8.github.io/Portfolio_with_UX_UI_Design/)
+## 🤝 Contribute
 
-¿Usaste o te inspiraste de alguna de estas plantillas? ¡[Haz un pull request](https://github.com/UXCorpRangel/portfolios-dev/pulls) y lo añadiremos a esta lista para que todos puedan verlo! Tu aporte es muy apreciado.
+If you would like to contribute to this project, you can do so by reading the [Contribution Guide](./CONTRIBUTING.md).
 
-## 🤝 Contribuir
+## 📄 License
 
-Si deseas contribuir a este proyecto, puedes hacerlo leyendo la [Guía de Contribución](./CONTRIBUTING.md).
-
-## 📈 Actividad
-
-![Actividad](https://repobeats.axiom.co/api/embed/4d0c6dc938912ea72b7102d4d22d32d7659df340.svg 'Repobeats analytics image')
-
-## 📄 Licencia
-
-Este proyecto utiliza la Licencia MIT. Consulte el [Archivo de Licencia](./LICENCE) para obtener más información.
+This project uses the MIT License. See the [License File](./LICENCE) for more information.
 
 ---
 
-Diseñado con ❤️ por [Ana Rangel][anarangel] y desarrollado con 💙 por [Felix Icaza][felixicaza].
+Designed with ❤️ by [Jordan Wooding][jordan] and developed with 💙 by [baymax][bay].
 
-[anarangel]: https://www.linkedin.com/in/ux-ana-rangel
-[felixicaza]: https://felixicaza.com
-[uxcorprangel]: https://www.linkedin.com/company/uxcorprangel/
-[portafolio]: https://anarangel.github.io/
-[pagespeed]: https://pagespeed.web.dev/analysis/https-unicorn-sparkle-web-app/cnpanzebex?form_factor=desktop
-[unicorn-sparkle-folder]: ./unicorn-sparkle
-[unicorn-sparkle-screenshot]: ./unicorn-sparkle/assets/unicorn-sparkle.png
-[mistical-unicorn-folder]: ./mistical-unicorn
-[mistical-unicorn-screenshot]: ./mistical-unicorn/assets/mistical-unicorn.png
-[figma]: https://www.figma.com/design/RPSa9nHARMmnTemhrGuTCZ/Portafolio-dev?node-id=44-1034&t=dIZVva7mcSSduV6j-1
-[figma-badge]: https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
-[demo]: https://unicorn-sparkle.web.app
-[demo-badge]: https://img.shields.io/website?url=https%3A%2F%2Funicorn-sparkle.web.app&style=for-the-badge
-[github-badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
-[performance-badge]: ./unicorn-sparkle/performance/lighthouse_performance.svg
-[accessibility-badge]: ./unicorn-sparkle/performance/lighthouse_accessibility.svg
-[best-practices-badge]: ./unicorn-sparkle/performance/lighthouse_best-practices.svg
-[seo-badge]: ./unicorn-sparkle/performance/lighthouse_seo.svg
-[rainbow-unicorn-folder]: ./rainbow-unicorn
-[rainbow-unicorn-demo]: https://rainbow-unicorn.vercel.app/
-[rainbow-unicorn-repo]: https://github.com/Facundodandrea/bento-portfolio
+[LinkedIn]: https://www.linkedin.com/in/jordan-wooding-75053a338
+[Portafolio]: https://github.com/bossbaby-baymax/Portfolio-js
+[Github]: https://github.com/bossbaby-baymax

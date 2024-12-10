@@ -17,6 +17,19 @@ html {
     transition: var(--transition-bg);
   }
 
+  .mongodb {
+    background-color: #83be9c;
+    transition: var(--transition-bg);
+  }
+  .vue {
+    background-color: #64da95;
+    transition: var(--transition-bg);
+  }
+  .nodejs {
+    background-color: #0f0f0f;
+    transition: var(--transition-bg);
+  }
+
   .sass {
     background-color: #602957;
     transition: var(--transition-bg);

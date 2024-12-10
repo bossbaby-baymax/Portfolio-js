@@ -1,64 +1,62 @@
-# ✨ Nueva feature: [Título de la nueva feature]
+# ✨ New feature: [Title of new feature]
 
-### 📋 Descripción de la feature
+### 📋 Feature description
 
-**Resumen de la nueva feature:**
-_Añade una breve descripción de la nueva feature que estás implementando. ¿Qué aporta esta nueva funcionalidad al proyecto? ¿Por qué es útil o necesaria?_
+**New feature summary:**
+_Add a brief description of the new feature you're implementing. What does this new functionality bring to the project? Why is it useful or necessary?_
 
-**Motivación:**
-_Explica por qué decidiste añadir esta feature y qué problema o necesidad busca resolver._
+**Motivation:**
+_Explain why you decided to add this feature and what problem or need it aims to solve._
 
-**Issue relacionado (si existe):**
-_Si la feature está asociado a un issue existente o solicitud de la comunidad, menciónalo aquí (ej. Closes #123). De lo contrario, por favor crea un [nuevo issue][issue]._
+**Related issue (if any):**
+_If the feature is associated with an existing issue or community request, mention it here (e.g. Closes #123). Otherwise, please create a [new issue][issue]._
 
-### 🔧 Implementación
+### 🔧 Implementation
 
-**Detalles técnicos:**
-_Detalla cómo implementaste la nueva feature. Explica los principales cambios realizados en el código, las decisiones técnicas que tomaste, y cualquier cosa relevante para entender cómo funciona la nueva funcionalidad._
+**Technical details:**
+_Detail how you implemented the new feature. Explain the major changes you made to the code, the technical decisions you made, and anything else relevant to understanding how the new feature works._
 
-**Archivos modificados/añadidos:**
-_Lista los archivos que fueron modificados o añadidos para la implementación de esta feature, por ejemplo:_
+**Files changed/added:**
+_List the files that were changed or added to implement this feature, for example:_
 
-- `src/components/FeatureComponent.js` (nuevo archivo)
-- `src/utils/featureHelper.js` (modificación)
+- `src/components/FeatureComponent.js` (new file)
+- `src/utils/featureHelper.js` (modification)
 
 ---
 
-### 🧪 Pruebas
+### 🧪 Testing
 
-**Pruebas que realizaste:**
-_Describe las pruebas que ejecutaste para asegurar que la nueva feature funciona correctamente. Esto puede incluir pruebas unitarias, funcionales, y/o manuales._
+**Tests you performed:**
+_Describe the tests you ran to ensure the new feature works correctly. This may include unit, functional, and/or manual tests._
 
-- [ ] Pruebas manuales para confirmar que la feature se comporta como se esperaba.
-- [ ] He comprobado que la feature no afecta negativamente otras partes del proyecto.
-- [ ] Pruebas unitarias para validar la funcionalidad (si aplica).
+- [ ] Manual tests to confirm the feature behaves as expected.
+- [ ] I have verified that the feature does not negatively affect other parts of the project.
+- [ ] Unit tests to validate the functionality (if applicable).
 
-### 📸 Capturas de pantalla, videos o GIFs (Opcional)
+### 📸 Screenshots, videos, or GIFs (Optional)
 
-_Si son cambios de interfaz, incluye capturas de pantalla, videos o GIFs que muestren la nueva feature en acción. Esto ayudará a los revisores a visualizar fácilmente la funcionalidad añadida._
+_If these are interface changes, include screenshots, videos, or GIFs that show the new feature in action. This will help reviewers easily visualize the added functionality._
 
-### ✅ Comportamiento esperado
+### ✅ Expected behavior
 
-**Descripción del comportamiento:**
-_Explica el comportamiento esperado con la nueva feature. Esto incluye cómo se integra en el flujo actual del proyecto y cómo deberían interactuar los usuarios con la nueva funcionalidad._
+**Description of behavior:**
+_Explain the expected behavior with the new feature. This includes how it integrates into the current project flow and how users should interact with the new functionality._
 
-### ⚙️ Consideraciones técnicas
+### ⚙️ Technical considerations
 
-**Impacto en el proyecto:**
-_Añade si esta nueva feature puede tener impacto en otras áreas del proyecto o si introduce alguna dependencia adicional. También indico si hay algún cambio importante en la estructura del código._
-_Si la feature requiere configuraciones adicionales o migraciones menciónalas aquí. Si no aplica, puedes eliminar esta sección._
+**Impact on the project:**
+_Add if this new feature can impact other areas of the project or if it introduces any additional dependencies. Also indicate if there are any major changes to the code structure._
+_If the feature requires additional configurations or migrations, mention them here. If it doesn't apply, you can delete this section._
 
 ### 🔄 Checklist
 
-Antes de enviar esta Pull Request, he verificado lo siguiente:
+Before submitting this Pull Request, I have verified the following:
 
-- [ ] He revisado que mi código sigue la guía de estilo del proyecto.
-- [ ] La nueva feature no afecta negativamente la funcionalidad existente.
-- [ ] Mi PR está vinculada a un issue.
-- [ ] Todas las pruebas relevantes han sido ejecutadas y pasadas (si aplica).
-- [ ] Acepto que mi PR se alinea con el [Código de Conducta de UXCorpRangel][codigo-de-conducta].
+- [ ] I have checked that my code follows the project's style guide.
+- [ ] The new feature does not negatively affect existing functionality.
+- [ ] My PR is linked to an issue.
+- [ ] All relevant tests have been run and passed (if applicable).
 
-Agradezco su tiempo y revisión. Estoy abierto/a a cualquier comentario o sugerencia que puedan tener para mejorar esta nueva feature. ¡Espero que esta adición sea útil para el proyecto! 😄
+I appreciate your time and review. I am open to any comments or suggestions you may have to improve this new feature. I hope this addition is useful for the project! 😄
 
-[issue]: https://github.com/UXCorpRangel/portfolios-dev/issues/new
-[codigo-de-conducta]: https://github.com/UXCorpRangel/.github/blob/main/CODE_OF_CONDUCT.md
+[issue]: https://github.com/bossbaby-baymax/Portfolio-js/issues/new

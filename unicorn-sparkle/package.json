@@ -1,7 +1,7 @@
 {
-  "name": "unicorn-sparkle",
+  "name": "unicorn",
   "private": true,
-  "description": "Unicorn Sparkle es la plantilla de portafolio definitiva para desarrolladores que quieren brillar.",
+  "description": "Unicorn is the ultimate portfolio template for developers who want to shine.",
   "keywords": [
     "portfolio",
     "astro",
@@ -10,14 +10,14 @@
     "astro-template"
   ],
   "bugs": {
-    "url": "https://github.com/UXCorpRangel/portfolios-dev/issues"
+    "url": "https://github.com/bossbaby-baymax/Portfolio-js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UXCorpRangel/portfolios-dev.git"
+    "url": "https://github.com/bossbaby-baymax/Portfolio-js"
   },
   "license": "MIT",
-  "author": "UXCorpRangel - Felix Icaza <fx.joliett17@gmail.com>",
+  "author": "Full-Stack Developer - Jordan Wooding <jordan.wooding92@gmail.com>",
   "type": "module",
   "scripts": {
     "astro": "astro",

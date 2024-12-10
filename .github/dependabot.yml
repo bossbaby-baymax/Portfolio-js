@@ -12,6 +12,6 @@ updates:
      labels:
         - "dependencies"
      assignees:
-        - "felixicaza"
+        - "jordan"
      reviewers:
-        - "felixicaza"
+        - "jordan"

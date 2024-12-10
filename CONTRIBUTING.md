@@ -1,78 +1,78 @@
-# Contribuyendo a Portfolios Dev
+# Contributing to Dev Portfolios
 
-¡Gracias por tu interés en contribuir a Portfolios Dev! Para garantizar una colaboración fluida y eficiente, por favor sigue estas directrices.
+Thank you for your interest in contributing to Portfolios Dev! To ensure a smooth and efficient collaboration, please follow these guidelines.
 
-## Tabla de contenidos
+## Table of contents
 
-- [Cómo Contribuir](#c%C3%B3mo-contribuir)
-- [Código de Conducta](#c%C3%B3digo-de-conducta)
-- [Cómo Reportar Problemas](#c%C3%B3mo-reportar-problemas)
-- [Cómo Proponer Nuevas Características](#c%C3%B3mo-proponer-nuevas-caracter%C3%ADsticas)
-- [Cómo Enviar un Pull Request](#c%C3%B3mo-enviar-un-pull-request)
-- [Guía de Estilo](#gu%C3%ADa-de-estilo)
-- [Licencia](#licencia)
-- [Envío de Issues](#env%C3%ADo-de-issues)
-- [Cómo Hacer un Fork](#c%C3%B3mo-hacer-un-fork)
+- [How to Contribute](#how-to-contribute)
+- [Code of Conduct](#code-of-conduct)
+- [How to Report Issues](#how-to-report-issues)
+- [How to Propose New Features](#how-to-propose-new-features)
+- [How to Submit a Pull Request](#how-to-submit-a-pull-request)
+- [Style Guide](#style-guide)
+- [License](#license)
+- [Submitting Issues](#submit-issues)
+- [How to Fork](#how-to-fork)
 
-## ¿Cómo contribuir?
+## How to contribute?
 
-1. **Explora el Proyecto**: Revisa el [README](./README.md), la estructura y el código para entender el proyecto.
-2. **Revisa Issues Abiertos**: Consulta la [sección de Issues](https://github.com/UXCorpRangel/portfolios-dev/issues) para ver cómo puedes ayudar o deja una issue para sugerir una nueva característica o error.
-3. **Fork y Clona**: Haz un fork del repositorio y clónalo en tu máquina local.
+1. **Explore the Project**: Review the [README](./README.md), the structure, and the code to understand the project.
+2. **Check Open Issues**: Check the [Issues section](https://github.com/bossbaby-baymax/Portfolio-js/issues) to see how you can help, or leave an issue to suggest a new feature or bug.
+3. **Fork and Clone**: Fork the repository and clone it to your local machine.
 
-## Código de conducta
+## Code of Conduct
 
-Nos comprometemos a mantener un ambiente de colaboración respetuoso y acogedor.
+We are committed to maintaining a respectful and welcoming collaborative environment.
 
-## ¿Cómo reportar problemas?
+## How to report issues?
 
-Si encuentras un error o problema:
+If you find a bug or problem:
 
-1. **Busca en Issues**: Verifica si el problema ya ha sido reportado.
-2. **Crea un Nuevo Issue**: Si el problema es nuevo, abre un issue en la [sección de Issues](https://github.com/UXCorpRangel/portfolios-dev/issues) con una descripción clara y concisa del problema.
+1. **Search Issues**: Check if the problem has already been reported.
+2. **Create a New Issue**: If the problem is new, open an issue in the [Issues section](https://github.com/bossbaby-baymax/Portfolio-js/issues) with a clear and concise description of the problem.
 
-## ¿Cómo proponer nuevas características?
+## How to propose new features?
 
-Para proponer una nueva característica:
+To propose a new feature:
 
-1. **Abre un Issue**: Antes de comenzar a trabajar en la nueva característica, abre un nuevo issue para discutir la idea en la [sección de Issues](https://github.com/UXCorpRangel/portfolios-dev/issues).
-2. **Recibe Retroalimentación**: Espera comentarios y sugerencias de los colaboradores o mantenedores antes de proceder.
+1. **Open an Issue**: Before you start working on the new feature, open a new issue to discuss the idea in the [Issues section](https://github.com/bossbaby-baymax/Portfolio-js/issues).
+2. **Get Feedback**: Wait for comments and suggestions from contributors or maintainers before proceeding.
 
-## ¿Cómo hacer un fork?
+## How to fork?
 
-Para contribuir a Portfolios Dev, primero necesitas hacer un fork del repositorio:
+To contribute to Portfolios Dev, you first need to fork the repository:
 
-1. **Ve al Repositorio en GitHub**: Accede a [Portfolios Dev en GitHub](https://github.com/UXCorpRangel/portfolios-dev).
-2. **Haz un Fork**: En la esquina superior derecha de la página del repositorio, haz clic en el botón **Fork**. Esto creará una copia del repositorio en tu cuenta de GitHub.
-3. **Clona tu Fork**: Abre una terminal en tu máquina local y usa el siguiente comando para clonar tu fork:
+1. **Go to the Repository on GitHub**: Go to [Portfolios Dev on GitHub](https://github.com/bossbaby-baymax/Portfolio-js).
+2. **Make a Fork**: In the top right corner of the repository page, click the **Fork** button. This will create a copy of the repository in your GitHub account.
+3. **Clone your Fork**: Open a terminal on your local machine and use the following command to clone your fork:
 
 ```bash
-git clone https://github.com/TU_USUARIO/portfolios-dev.git
+git clone https://github.com/bossbaby-baymax/Portfolio-js.git
 ```
 
-## ¿Cómo enviar un pull request?
+## How to submit a pull request?
 
-Para enviar un pull request (PR):
+To submit a pull request (PR):
 
-1. **Sincroniza tu Repositorio**: Asegúrate de que tu rama esté actualizada con la rama principal del repositorio.
-2. **Crea una Rama Nueva**: Trabaja en tus cambios en una rama separada y realiza commits con mensajes claros.
-3. **Prueba tus Cambios**: Asegúrate de que tus cambios no introduzcan errores y que todo funcione como se espera.
-4. **Abre el Pull Request**: Envía un PR desde tu rama a la rama principal del repositorio, incluyendo una descripción detallada de los cambios.
-5. **Espera Revisión**: Los mantenedores revisarán tu PR y proporcionarán comentarios. Realiza las modificaciones necesarias.
+1. **Sync Your Repository**: Make sure your branch is up to date with the main branch of the repository.
+2. **Create a New Branch**: Work on your changes in a separate branch and commit with clear messages.
+3. **Test Your Changes**: Make sure your changes do not introduce bugs and that everything works as expected.
+4. **Open Pull Request**: Submit a PR from your branch to the main branch of the repository, including a detailed description of the changes.
+5. **Await Review**: Maintainers will review your PR and provide feedback. Make any necessary modifications.
 
-## Envío de issues
+## Submitting Issues
 
-Para asegurar que tu issue sea procesado de manera eficiente:
+To ensure your issue is processed efficiently:
 
-1. **Proporciona Información Detallada**: Incluye detalles relevantes sobre el problema o la mejora propuesta. Esto puede incluir pasos para reproducir el problema, capturas de pantalla, o ejemplos de código.
-2. **Utiliza Etiquetas Adecuadas**: Si es posible, utiliza las etiquetas proporcionadas para categorizar tu issue (como `bug`, `enhancement`, etc.).
-3. **Sé Claro y Conciso**: Escribe una descripción clara y al punto para que los mantenedores puedan entender rápidamente el problema o la solicitud.
-4. **Revisa Issues Anteriores**: Antes de abrir un nuevo issue, revisa los issues existentes para asegurarte de que no se haya reportado el mismo problema o propuesta.
+1. **Provide Detailed Information**: Include relevant details about the problem or proposed improvement. This may include steps to reproduce the problem, screenshots, or code examples.
+2. **Use Appropriate Tags**: If possible, use the provided tags to categorize your issue (such as `bug`, `enhancement`, etc.).
+3. **Be Clear and Concise**: Write a clear and to-the-point description so that maintainers can quickly understand the problem or request.
+4. **Review Previous Issues**: Before opening a new issue, review existing issues to make sure the same problem or request has not been reported before.
 
-## Licencia
+## License
 
-Al contribuir a Portfolios Dev, aceptas que tus contribuciones estén sujetas a la [Licencia del Proyecto](./LICENSE).
+By contributing to Portfolios Dev, you agree that your contributions are subject to the [Project License](./LICENSE).
 
 ---
 
-Gracias por tu interés y tu contribución a Portfolios Dev. ¡Tu ayuda es muy valiosa!
+Thank you for your interest and contribution to Portfolios Dev. Your help is very much appreciated!

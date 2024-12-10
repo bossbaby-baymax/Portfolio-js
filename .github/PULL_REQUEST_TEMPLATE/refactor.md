@@ -1,75 +1,73 @@
-# 🔄 Refactorización: [Título breve del refactor realizado]
+# 🔄 Refactoring: [Short title of the refactor performed]
 
-### 📋 Descripción general
+### 📋 Overview
 
-**Resumen del refactor:**
-_Describe brevemente qué has refactorizado y por qué. ¿Qué áreas del código fueron optimizadas, simplificadas o mejoradas? ¿Qué motivó esta refactorización?_
-_Ejemplo: Refactorización del componente `UserProfile` para mejorar la legibilidad del código y reducir la duplicación de lógica._
+**Refactor summary:**
+_Briefly describe what you refactored and why. What areas of the code were optimized, simplified, or improved? What motivated this refactoring?_
+_Example: Refactoring the `UserProfile` component to improve code readability and reduce duplication of logic._
 
-**Issue relacionado (si existe):**
-_Si refactor añadido está asociado a un issue existente o solicitud de la comunidad, menciónalo aquí (ej. Closes #123). De lo contrario, por favor crea un [nuevo issue][issue]._
+**Related issue (if any):**
+_If the added refactor is associated with an existing issue or community request, mention it here (e.g. Closes #123). Otherwise, please create a [new issue][issue]._
 
-### 🔧 Cambios principales
+### 🔧 Major changes
 
-**Descripción detallada de los cambios:**
-_Explica los principales cambios que has realizado. Sé claro/a acerca de las decisiones técnicas y las mejoras introducidas. Indica si has reemplazado patrones antiguos por otros más eficientes, optimizado funciones, o simplificado estructuras._
+**Detailed description of changes:**
+_Explain the major changes you made. Be clear about the technical decisions and improvements introduced. Indicate whether you have replaced old patterns with more efficient ones, optimized functions, or simplified structures._
 
-**Archivos y componentes afectados:**
-_Lista los archivos, componentes o módulos que fueron refactorizados. Esto ayudará a los revisores a localizar rápidamente las partes afectadas del código._
-_Ejemplo:_
+**Affected Files and Components:**
+_List the files, components, or modules that were refactored. This will help reviewers quickly locate the affected parts of the code._
+_Example:_
 
-- `src/components/UserProfile.js` (Optimización de lógica condicional)
-- `src/utils/dataFormatter.js` (Refactorización de funciones para mejorar la reutilización)
+- `src/components/UserProfile.js` (Conditional logic optimization)
+- `src/utils/dataFormatter.js` (Function refactoring to improve reusability)
 
-### 📝 Motivación
+### 📝 Motivation
 
-**Razón de la Refactorización:**
-_Describe por qué esta refactorización era necesaria. ¿Buscabas mejorar el rendimiento, legibilidad, o mantenimiento del código? ¿Había una deuda técnica que necesitaba ser resuelta?_
-_Ejemplo: Se simplificó la lógica de `UserProfile` para mejorar la comprensión del código por parte de otros desarrolladores y reducir errores futuros. Si no aplica, puedes eliminar esta sección._
+**Reason for Refactoring:**
+_Describe why this refactoring was necessary. Were you looking to improve performance, readability, or maintainability of the code? Was there technical debt that needed to be resolved?_
+_Example: The logic for `UserProfile` was simplified to improve other developers' understanding of the code and reduce future bugs. If it doesn't apply, you can delete this section._
 
-### ✅ Beneficios esperados
+### ✅ Expected benefits
 
-**Resultados y beneficios:**
-_Indica los beneficios que se obtienen gracias a la refactorización. Puede ser código más limpio, más rápido, menos propenso a errores o más fácil de extender. Esto le dará al revisor una idea clara del impacto positivo que tiene tu trabajo._
+**Outcomes and benefits:**
+_Indicate the benefits that are achieved thanks to the refactoring. It can be cleaner, faster, less error-prone, or easier to extend code. This will give the reviewer a clear idea of ​​the positive impact your work has._
 
-_Ejemplo:_
+_Example:_
 
-- Mejor legibilidad del código.
-- Reducción de líneas de código redundante.
-- Mayor eficiencia en el manejo de datos.
+- Improved code readability.
+- Reduction of redundant lines of code.
+- Increased efficiency in data handling.
 
-### 🧪 Pruebas
+### 🧪 Testing
 
-**Pruebas Realizadas y consideraciones:**
-_Asegúrate de haber probado que los cambios no introducen errores. Explica cómo probaste el código refactorizado (pruebas unitarias, manuales, etc.). Si añadiste o modificaste tests, indícalo aquí._
+**Testing performed and considerations:**
+_Make sure you have tested that the changes do not introduce errors. Explain how you tested the refactored code (unit tests, manual tests, etc.). If you added or modified tests, indicate this here._
 
-- [ ] Pruebas manuales para asegurar que el comportamiento sigue siendo el esperado.
-- [ ] Se verificó que el código refactorizado no afecta otras áreas del proyecto.
-- [ ] Pruebas unitarias actualizadas para cubrir los cambios (si aplica).
+- [ ] Manual testing to ensure that the behavior remains as expected.
+- [ ] Verified that the refactored code does not affect other areas of the project.
+- [ ] Updated unit tests to cover the changes (if applicable).
 
-### 📸 Capturas de pantalla, videos o GIFs (Opcional)
+### 📸 Screenshots, videos, or GIFs (Optional)
 
-_Si el refactor tiene un impacto visible en la interfaz de usuario (UI), añade aquí capturas de pantalla, videos o GIFs que muestren las mejoras o cambios visuales (si los hay). Esto es especialmente útil para componentes front-end refactorizados. Si no aplica, puedes eliminar esta sección._
+_If the refactor has a visible impact on the user interface (UI), add screenshots, videos, or GIFs here that show the visual improvements or changes (if any). This is especially useful for refactored front-end components. If not applicable, you can delete this section._
 
-### 🛠️ Consideraciones técnicas y notas
+### 🛠️ Technical considerations and notes
 
-**Impacto en el proyecto:**
-_Indica si la refactorización puede tener algún impacto en otras partes del proyecto, y si se necesitarán ajustes adicionales en el futuro. Si la refactorización incluye cambios importantes en la arquitectura o estructura del código, es importante mencionarlo._
+**Impact on the project:**
+_Indicate whether the refactoring may have any impact on other parts of the project, and whether additional adjustments will be needed in the future. If the refactoring includes major changes to the architecture or code structure, it is important to mention this._
 
-_Ejemplo: Debido a la refactorización, algunos componentes ahora comparten una lógica común, lo que puede facilitar futuras extensiones. No se prevén cambios en el comportamiento existente._
+_Example: Due to the refactoring, some components now share common logic, which can facilitate future extensions. No changes to existing behavior are planned._
 
 ### 🔄 Checklist
 
-Antes de enviar esta Pull Request, asegúrate de cumplir con lo siguiente:
+Before submitting this Pull Request, please ensure that the following are met:
 
-- [ ] El código refactorizado sigue la guía de estilo del proyecto.
-- [ ] La refactorización no introduce nuevas dependencias o complejidad innecesaria.
-- [ ] Se ha revisado que el comportamiento actual del proyecto no haya sido alterado negativamente.
-- [ ] Mi PR está vinculada a un issue.
-- [ ] Todas las pruebas relevantes han sido ejecutadas y pasadas (si aplica).
-- [ ] Acepto que mi PR se alinea con el [Código de Conducta de UXCorpRangel][codigo-de-conducta].
+- [ ] The refactored code follows the project's style guide.
+- [ ] The refactoring does not introduce new dependencies or unnecessary complexity.
+- [ ] The current behavior of the project has been reviewed to ensure it has not been negatively altered.
+- [ ] My PR is tied to an issue.
+- [ ] All relevant tests have been run and passed (if applicable).
 
-Me gustaría recibir feedback sobre la estructura del refactor para ver si se puede optimizar aún más. ¡Gracias por su tiempo y revisión!\_ 😄
+I would like to receive feedback on the structure of the refactor to see if it can be further optimized. Thank you for your time and review! 😄
 
-[issue]: https://github.com/UXCorpRangel/portfolios-dev/issues/new
-[codigo-de-conducta]: https://github.com/UXCorpRangel/.github/blob/main/CODE_OF_CONDUCT.md
+[issue]: https://github.com/bossbaby-baymax/Portfolio-js/issues/new

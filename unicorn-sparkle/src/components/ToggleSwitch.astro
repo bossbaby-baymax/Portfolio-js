@@ -42,14 +42,14 @@ import { Icon } from 'astro-icon/components'
       transition: var(--transition-bg);
 
       &.active::before {
-        /* Calcula el offset para que el .toggle-thumb se ajuste correctamente */
+        /* Calculate the offset so that the .toggle-thumb fits correctly */
         --offset: calc(var(--padding) / 2);
 
         /* --size: 16px + --toggle-gap: 8px + --offset: 2px = 26px */
         translate: calc(var(--size) + var(--toggle-gap) + var(--offset));
       }
 
-      /* Crea el elemento de toggle-thumb */
+      /* Create the toggle-thumb element */
       &::before {
         --size: 16px;
 
@@ -67,11 +67,11 @@ import { Icon } from 'astro-icon/components'
       }
 
       & svg {
-        /* Ajusta la posición del icono svg del lado izquierdo (luna) */
+        /* Adjust the position of the left side (moon) svg icon */
         &:nth-child(odd) {
           translate: calc(var(--toggle-gap) / 2);
         }
-        /* Ajusta la posición del icono svg del lado derecho (sol) */
+        /* Adjust the position of the right side (sun) svg icon */
         &:nth-child(even) {
           translate: calc((var(--toggle-gap) / 2) * -1);
         }

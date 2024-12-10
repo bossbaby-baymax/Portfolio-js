@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "Si utilizas o te has inspirado en algunas de estas plantillas, por favor citala en tus publicaciones, proyectos o en cualquier otro lugar que consideres oportuno."
 authors:
-  - family-names: "Rangel"
-    given-names: "Ana"
-    names: "Ana Rangel"
-    affiliation: "UX Designer"
-  - family-names: "Icaza"
-    given-names: "Felix"
-    names: "Felix Icaza"
-    affiliation: "Frontend Developer"
+  - family-names: "Wooding"
+    given-names: "Jordan"
+    names: "Jordan Wooding"
+    affiliation: "Senior Full-Stack Developer"
+  - family-names: "Max"
+    given-names: "Bay"
+    names: "BayMax"
+    affiliation: "Web Application Developer"
 title: "Portfolios Dev"
-date-released: 2024-09-05
-url: "https://github.com/UXCorpRangel/portfolios-dev"
+date-released: 2024-12-6
+url: "https://github.com/bossbaby-baymax/Portfolio-js"

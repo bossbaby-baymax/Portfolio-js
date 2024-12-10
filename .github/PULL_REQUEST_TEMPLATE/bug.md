@@ -1,62 +1,60 @@
-# 🐛 Solución de Bug: [Nombre del Bug]
+# 🐛 Bug Solution: [Bug Name]
 
-### Descripción del Problema
+### Issue Description
 
-**Resumen del bug:**
-_Explica aquí de manera breve el bug que estás solucionando. ¿Qué comportamiento incorrecto ocurría? ¿Qué efectos tenía en el proyecto?_
+**Bug Summary:**
+_Briefly explain the bug you are fixing here. What incorrect behavior was occurring? What effects did it have on the project?_
 
-**Issue relacionado (si existe):**
-_Si el bug está asociado a un issue existente, menciónalo aquí (ej. Closes #123). De lo contrario, por favor crea un [nuevo issue](issue)._
+**Related Issue (if any):**
+_If the bug is associated with an existing issue, mention it here (e.g. Closes #123). Otherwise, please create a [new issue]._
 
-### 🔧 Solución Propuesta
+### 🔧 Proposed Solution
 
-**Descripción de la solución:**
-_Detalla cómo abordaste el problema y qué cambios específicos realizaste para solucionarlo. Explica cómo el código fue modificado y cuál es el resultado esperado con la solución._
+**Solution Description:**
+_Detail how you addressed the problem and what specific changes you made to fix it. Explain how the code was modified and what the expected outcome is with the fix._
 
-**Archivos modificados:**
-_Enumera los archivos que fueron cambiados o afectados por la solución, por ejemplo:_
+**Files changed:**
+_List the files that were changed or affected by the fix, for example:_
 
 - `src/components/Header.js`
 - `src/utils/handleData.js`
 
-### 🧪 Pruebas Realizadas
+### 🧪 Tests Performed
 
-**Pruebas que he realizado:**
-_Detalla las pruebas que has ejecutado para asegurarte de que el bug fue corregido. Puedes mencionar tanto pruebas manuales como automatizadas que confirmen que el error ya no ocurre._
+**Tests I've performed:**
+_Detail the tests you've run to ensure the bug was fixed. You can mention both manual and automated tests that confirm the bug no longer occurs._
 
-- [ ] Prueba manual en varios navegadores.
-  - [ ] Google Chrome
-  - [ ] Mozilla Firefox
-  - [ ] Microsoft Edge
-  - [ ] Opera
-  - [ ] Otros. Por favor describir.
-- [ ] Pruebas unitarias actualizadas (si aplica).
-- [ ] Pruebas end-to-end realizadas (si aplica).
+- [ ] Manual testing in multiple browsers.
+- [ ] Google Chrome
+- [ ] Mozilla Firefox
+- [ ] Microsoft Edge
+- [ ] Opera
+- [ ] Others. Please describe.
+- [ ] Unit tests updated (if applicable).
+- [ ] End-to-end tests performed (if applicable).
 
-### ✅ Comportamiento Esperado
+### ✅ Expected Behavior
 
-**Resultado esperado tras la solución:**
-_Describe el comportamiento correcto que debería observarse después de aplicar la solución. Esto ayuda a los revisores a entender el objetivo final y cómo debería funcionar la aplicación sin el bug._
+**Expected outcome after the fix:**
+_Describe the correct behavior that should be observed after the fix is ​​applied. This helps reviewers understand the end goal and how the app should work without the bug._
 
-### 📸 Capturas de pantalla, videos o GIFs (Opcional)
+### 📸 Screenshots, Videos, or GIFs (Optional)
 
-_Incluye aquí capturas de pantalla, videos o GIFs que muestren el antes y después, o simplemente el resultado de la solución, para que los revisores puedan visualizar rápidamente el cambio. Si no aplica, puedes eliminar esta sección._
+_Include screenshots, videos, or GIFs here that show the before and after, or just the result of the fix, so that reviewers can quickly visualize the change. If it doesn't apply, you can delete this section._
 
-### 🗒️ Notas Adicionales
+### 🗒️ Additional Notes
 
-_Si hay algo más relevante que debería mencionarse, como detalles técnicos, posibles efectos secundarios o sugerencias para mejorar otras partes relacionadas del código, menciónalo aquí. Si no aplica, puedes eliminar esta sección._
+_If there's anything more relevant that should be mentioned, such as technical details, possible side effects, or suggestions for improving other related parts of the code, mention it here. If it doesn't apply, you can delete this section._
 
 ### 📦 Checklist
 
-Antes de enviar la Pull Request, asegúrate de completar el siguiente checklist:
+Before submitting the Pull Request, make sure to complete the following checklist:
 
-- [ ] He revisado que el código sea coherente con la guía de estilo del proyecto.
-- [ ] Mi solución no rompe ninguna funcionalidad existente.
-- [ ] Mi PR está vinculada correctamente a un issue.
-- [ ] Todas las pruebas relevantes han sido ejecutadas y pasadas (si aplica).
-- [ ] Acepto que mi PR se alinea con el [Código de Conducta de UXCorpRangel][codigo-de-conducta].
+- [ ] I have reviewed that the code is consistent with the project style guide.
+- [ ] My fix does not break any existing functionality.
+- [ ] My PR is correctly linked to an issue.
+- [ ] All relevant tests have been run and passed (if applicable).
 
-¡Gracias por su tiempo al revisar esta PR! Estoy abierto/a a cualquier sugerencia o mejora adicional. 😄
+Thank you for your time reviewing this PR! I am open to any suggestions or further improvements. 😄
 
-[issue]: https://github.com/UXCorpRangel/portfolios-dev/issues/new
-[codigo-de-conducta]: https://github.com/UXCorpRangel/.github/blob/main/CODE_OF_CONDUCT.md
+[issue]: https://github.com/bossbaby-baymax/Portfolio-js/issues/new

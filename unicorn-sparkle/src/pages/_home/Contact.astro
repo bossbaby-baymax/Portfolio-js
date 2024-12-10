@@ -78,23 +78,23 @@ const { title, subtitle } = t('contact', {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Inicia la animación cuando el canvas entra en la vista
+            // Starts the animation when the canvas enters the view
             gridField.play()
-            // Deja de observar el canvas
+            // Stop looking at the canvas
             observer.unobserve(canvas)
           }
         })
       },
       {
-        // Activar cuando al menos el 50% del canvas sea visible
+        // Activate when at least 50% of the canvas is visible
         threshold: 0.5
       }
     )
 
-    // Observa el canvas
+    // Observe the canvas
     observer.observe(canvas)
   } else {
-    // Mensaje de error si no se encuentra el canvas
+    // Error message if canvas is not found
     console.error("No se encontró el elemento 'canvas'")
   }
 </script>

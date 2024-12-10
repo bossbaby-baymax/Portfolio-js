@@ -1,21 +1,18 @@
-# 🚀 ¡Añadiendo mi portafolio a la colección de Plantillas de la Comunidad de [Portfolios Dev][portfolios-dev]!
+# 🚀 Adding my portfolio to the [Portfolio-js][portfolio-js] Community Templates collection!
 
-Estoy emocionado/a de compartir mi portafolio con la comunidad. A continuación, dejo la información para que puedan revisarlo y, con suerte, agregarlo a la lista de repositorios destacados. 🌟
+I'm excited to share my portfolio with the community. Below is the information so you can check it out and hopefully add it to the featured repositories list. 🌟
 
-## 🦄 Información del portafolio
+## 🦄 Portfolio Information
 
-**Repositorio GitHub:**
-_Proporciona el enlace a tu repositorio en GitHub_
+**GitHub Repository:**
+_Provide the link to your GitHub repository_
 
-**Demo en Vivo:**
-_Proporciona el enlace a la demo de tu portafolio_
+**Live Demo:**
+_Provide the link to your portfolio demo_
 
-**Tecnologías Destacadas:**
-_Menciona las tecnologías o herramientas que utilizaste en tu portafolio (ej. HTML5, CSS3, Astro, React, Vue, etc.)_
+**Featured Technologies:**
+_Mention the technologies or tools you used in your portfolio (e.g. HTML5, CSS3, Astro, React, Vue, etc.)_
 
-- [ ] He leído y acepto el [Código de Conducta de UXCorpRangel][codigo-de-conducta].
+I am very grateful for the opportunity to contribute. I hope my portfolio can inspire other developers and be part of this fantastic collection! 🦄✨
 
-Estoy muy agradecido/a por la oportunidad de contribuir. ¡Espero que mi portafolio pueda inspirar a otros desarrolladores y ser parte de esta fantástica colección! 🦄✨
-
-[portfolios-dev]: https://github.com/UXCorpRangel/portfolios-dev
-[codigo-de-conducta]: https://github.com/UXCorpRangel/.github/blob/main/CODE_OF_CONDUCT.md
+[portfolio-js]: https://github.com/bossbaby-baymax/Portfolio-js

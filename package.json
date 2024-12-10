@@ -1,7 +1,7 @@
 {
-  "name": "portfolios-dev",
+  "name": "portfolio-js",
   "private": true,
-  "description": "Una colección única de plantillas de portafolios para desarrolladores.",
+  "description": "A unique collection of developer portfolio templates",
   "keywords": [
     "portfolio",
     "astro",
@@ -10,23 +10,19 @@
     "astro-template"
   ],
   "bugs": {
-    "url": "https://github.com/UXCorpRangel/portfolios-dev/issues"
+    "url": "https://github.com/bossbaby-baymax/Portfolio-js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UXCorpRangel/portfolios-dev.git"
+    "url": "https://github.com/bossbaby-baymax/Portfolio-js"
   },
   "license": "MIT",
-  "author": "UXCorpRangel - Felix Icaza <fx.joliett17@gmail.com>",
+  "author": "Full-Stack Developer - Jordan Wooding <jordan.wooding92@gmail.com>",
   "scripts": {
-    "build:ru": "pnpm -C rainbow-unicorn build",
-    "build:us": "pnpm -C unicorn-sparkle build",
-    "dev:ru": "pnpm -C rainbow-unicorn dev",
-    "dev:us": "pnpm -C unicorn-sparkle dev",
-    "performance:us": "lighthouse-badges -u https://unicorn-sparkle.web.app/ -o ./unicorn-sparkle/performance/ -b for-the-badge",
+    "dev": "pnpm -C unicorn-sparkle dev",
+    "build": "pnpm -C unicorn-sparkle build",
     "prepare": "husky",
-    "preview:ru": "pnpm -C rainbow-unicorn preview",
-    "preview:us": "pnpm -C unicorn-sparkle preview"
+    "preview": "pnpm -C unicorn-sparkle preview"
   },
   "lint-staged": {
     "./**/*.{js,mjs,cjs}": [
@@ -46,7 +42,19 @@
     "./**/*.yml": "prettier --cache --write \"./**/*.yml\""
   },
   "dependencies": {
-    "lighthouse-badges": "1.3.7"
+    "@astrolicious/i18n": "0.6.0",
+    "@fontsource-variable/inter": "5.1.0",
+    "@fontsource/inter": "5.1.0",
+    "@playform/compress": "0.1.6",
+    "astro": "5.0.4",
+    "astro-compressor": "1.0.0",
+    "astro-icon": "1.1.4",
+    "astro-imagetools": "0.9.0",
+    "astro-seo-schema": "5.0.0",
+    "astro-sitemap": "1.0.0",
+    "astro-tunnel": "0.1.6",
+    "lighthouse-badges": "1.3.7",
+    "sanitize.css": "13.0.0"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.4.0",

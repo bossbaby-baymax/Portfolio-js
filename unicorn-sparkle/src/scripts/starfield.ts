@@ -1,22 +1,22 @@
 /**
- * La funcionalidad de este script está inspirada en estos codepens:
+* The functionality of this script is inspired by these codepens:
 
- * - https://codepen.io/veljamatic/pen/pypxRR - canvas-dot-grid
- *   - Dibujar una grilla de puntos en un canvas
+* - https://codepen.io/veljamatic/pen/pypxRR - canvas-dot-grid
+* - Draw a grid of dots on a canvas
 
- * - https://codepen.io/efriberg/pen/ExaxzKq - Interactive Dot Grid
- *   - Efecto de repelencia basado en la posición del mouse
+* - https://codepen.io/efriberg/pen/ExaxzKq - Interactive Dot Grid
+* - Repel effect based on mouse position
 
- * - https://codepen.io/BuiltByEdgar/pen/gvEPya - Dot grid (canvas)
- *   - Efecto de destello de los puntos en el canvas
- */
+* - https://codepen.io/BuiltByEdgar/pen/gvEPya - Dot grid (canvas)
+* - Flash effect of dots on canvas
+*/
 
 export class StarField {
-  // Elemento canvas y su contexto 2D
+  // Canvas element and its 2D context
   private readonly canvas: HTMLCanvasElement
   private readonly context: CanvasRenderingContext2D | null
 
-  // Array que almacena las estrellas con sus propiedades: posición, alfa (opacidad), y velocidad
+  // Array storing stars with their properties: position, alpha (opacity), and speed
   private stars: Array<{
     x: number
     y: number
@@ -26,119 +26,119 @@ export class StarField {
     speed: number
   }> = []
 
-  // Posición del mouse y constantes de configuración
-  private readonly mousePosition = { x: -1000, y: -1000 } // Posición inicial del mouse fuera del canvas
-  private readonly SPACING = 18 // Espaciado entre estrellas
-  private readonly starRadius = 1 // Radio de cada estrella
-  private readonly influenceRadius = 80 // Radio de influencia para el efecto de repelencia del mouse
+  // Mouse position and configuration constants
+  private readonly mousePosition = { x: -1000, y: -1000 } // Initial mouse position outside the canvas
+  private readonly SPACING = 18 // Spacing between stars
+  private readonly starRadius = 1 // Radius of each star
+  private readonly influenceRadius = 80 // Influence radius for the mouse repellent effect
   private canvasWidth: number
   private canvasHeight: number
 
-  // Color de las estrellas (blanco por defecto)
+  // Color of stars (white by default)
   private starColor = '255, 255, 255'
 
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas
     this.context = this.canvas?.getContext('2d') ?? null
 
-    // Asignar dimensiones del canvas
+    // Set canvas dimensions
     this.canvasWidth = this.getCanvasWidth()
     this.canvasHeight = this.getCanvasHeight()
 
-    // Verificar si el contexto es válido antes de proceder
+    // Check if the context is valid before proceeding
     if (this.context !== null) {
-      this.initStars() // Inicializar estrellas
-      this.resizeCanvas() // Ajustar el tamaño del canvas
-      this.drawStars() // Dibujar las estrellas
-      this.addEventListeners() // Añadir eventos de mouse
-      this.observeThemeChanges() // Observar cambios en el tema (clase 'dark' en la etiqueta <html>)
+      this.initStars() // Initialize stars
+      this.resizeCanvas() // Adjust the canvas size
+      this.drawStars() // Draw the stars
+      this.addEventListeners() // Add mouse events
+      this.observeThemeChanges() // Observe changes in theme (class 'dark' in <html> tag)
     } else {
-      console.error('El contexto 2D no se pudo obtener.')
+      console.error('The 2D context could not be obtained.')
     }
 
-    // Añadir evento para redimensionar el canvas al cambiar el tamaño de la ventana
+    // Add event to resize the canvas when the window size changes
     window.addEventListener('resize', this.onResize.bind(this), false)
   }
 
-  // Obtener el ancho del canvas
+  // Get the width of the canvas
   private getCanvasWidth(): number {
     return this.canvas.clientWidth
   }
 
-  // Obtener la altura del canvas
+  // Get the height of the canvas
   private getCanvasHeight(): number {
     return this.canvas.clientHeight
   }
 
-  // Redimensionar el canvas
+  // Resize the canvas
   private resizeCanvas(): void {
     this.canvas.width = this.canvasWidth
     this.canvas.height = this.canvasHeight
   }
 
-  // Inicializar las estrellas con posiciones y propiedades aleatorias
+  // Initialize the stars with random positions and properties
   private initStars(): void {
     this.stars = []
 
-    // Generar estrellas en el canvas, inicializamos la posición x y y en -5 para ajustarlo correctamente
+    // Generate stars on the canvas, initialize the x and y position to -5 to adjust it correctly
     for (let x = -5; x < this.canvasWidth; x += this.SPACING) {
       for (let y = -5; y < this.canvasHeight; y += this.SPACING) {
         this.stars.push({
           x,
           y,
-          originalX: x, // Guardar la posición original para el efecto de "volver"
+          originalX: x, // Save original position for "push back" effect
           originalY: y,
-          alpha: Math.random(), // Opacidad aleatoria
-          speed: Math.random() * 0.005 + 0.002 // Velocidad de variación de la opacidad
+          alpha: Math.random(), // Random opacity
+          speed: Math.random() * 0.005 + 0.002 // Speed ​​of opacity variation
         })
       }
     }
   }
 
-  // Dibujar las estrellas y aplicar el efecto de repelencia basado en la posición del mouse
+  // Draw stars and apply push effect based on mouse position
   private drawStars(): void {
     if (this.context !== null) {
-      this.context.clearRect(0, 0, this.canvasWidth, this.canvasHeight) // Limpiar el canvas
+      this.context.clearRect(0, 0, this.canvasWidth, this.canvasHeight) // Clear canvas
     }
 
     this.stars.forEach((star) => {
-      // Calcular la distancia entre el mouse y la estrella
+      // Calculate distance between mouse and star
       const dx = this.mousePosition.x - star.x
       const dy = this.mousePosition.y - star.y
       const distance = Math.sqrt(dx * dx + dy * dy)
 
-      // Si la estrella está dentro del radio de influencia del mouse, aplicar repelencia
+      // If star is within mouse influence radius, apply repellency
       if (distance < this.influenceRadius) {
-        const angle = Math.atan2(dy, dx) // Ángulo de dirección hacia el mouse
-        const force = (this.influenceRadius - distance) / this.influenceRadius // Fuerza de la repelencia
-        star.x = star.originalX - Math.cos(angle) * force * 20 // Mover estrella lejos del mouse
+        const angle = Math.atan2(dy, dx) // Direction angle towards mouse
+        const force = (this.influenceRadius - distance) / this.influenceRadius // Strength of repellency
+        star.x = star.originalX - Math.cos(angle) * force * 20 // Move star away from mouse
         star.y = star.originalY - Math.sin(angle) * force * 20
       } else {
-        // Si la estrella está fuera del radio de influencia, regresa a su posición original
+        // If star is outside from the radius of influence, returns to its original position
         star.x += (star.originalX - star.x) * 0.05
         star.y += (star.originalY - star.y) * 0.05
       }
 
-      // Actualizar la opacidad (alpha) de las estrellas con su velocidad
+      // Update the opacity (alpha) of the stars with their speed
       star.alpha += star.speed
       if (star.alpha > 1 || star.alpha < 0) {
-        star.speed = -star.speed // Invertir la dirección del cambio de opacidad
+        star.speed = -star.speed // Reverse the direction of the opacity change
       }
 
-      // Dibujar cada estrella con su color (dependiendo del tema) y opacidad
+      // Draw each star with its color (depending on the theme) and opacity
       if (this.context !== null) {
         this.context.fillStyle = `rgba(${this.starColor}, ${Math.abs(star.alpha)})`
         this.context.beginPath()
-        this.context.arc(star.x, star.y, this.starRadius, 0, Math.PI * 2) // Dibujar la estrella
+        this.context.arc(star.x, star.y, this.starRadius, 0, Math.PI * 2) // Draw the star
         this.context.fill()
       }
     })
 
-    // Continuar animación en el siguiente frame
+    // Continue animation on the next frame
     requestAnimationFrame(this.drawStars.bind(this))
   }
 
-  // Añadir eventos de mouse: mover y salir del área del canvas
+  // Add mouse events: move and leave the canvas area
   private addEventListeners(): void {
     this.canvas.parentElement?.addEventListener(
       'mousemove',
@@ -150,20 +150,20 @@ export class StarField {
     )
   }
 
-  // Actualizar la posición del mouse al moverlo dentro del canvas
+  // Update the mouse position when moving it within the canvas
   private onMouseMove(event: MouseEvent): void {
     const rect = this.canvas.getBoundingClientRect()
     this.mousePosition.x = event.clientX - rect.left
     this.mousePosition.y = event.clientY - rect.top
   }
 
-  // Al salir del canvas, colocar el mouse en una posición fuera del área visible
+  // When exiting the canvas, place the mouse in a position outside the visible area
   private onMouseLeave(): void {
     this.mousePosition.x = -1000
     this.mousePosition.y = -1000
   }
 
-  // Redimensionar el canvas y reinicializar las estrellas cuando la ventana cambia de tamaño
+  // Resize the canvas and reset the stars when the window changes size
   private onResize(): void {
     this.canvasWidth = this.getCanvasWidth()
     this.canvasHeight = this.getCanvasHeight()
@@ -171,33 +171,33 @@ export class StarField {
     this.initStars()
   }
 
-  // Método para observar cambios en la clase 'dark' del <html>
+  // Method to observe changes in the 'dark' class of the <html>
   private observeThemeChanges(): void {
     const htmlElement = document.documentElement
 
-    // Inicialmente revisamos si la clase 'dark' está presente
+    // Initially we check if the 'dark' class is present
     this.updateStarColor()
 
-    // Crear un MutationObserver para detectar cambios en la clase del <html>
+    // Create a MutationObserver to detect changes in the <html> class
     const observer = new MutationObserver(() => {
-      this.updateStarColor() // Actualizar el color de las estrellas cuando cambie la clase
+      this.updateStarColor() // Update the color of the stars when the class changes
     })
 
-    // Iniciar la observación de cambios en los atributos del <html>
+    // Start observing changes in the <html> attributes
     observer.observe(htmlElement, {
-      attributes: true, // Observar solo atributos
-      attributeFilter: ['class'] // Solo observar cambios en la clase
+      attributes: true, // Observe attributes only
+      attributeFilter: ['class'] // Only observe changes in class
     })
   }
 
-  // Cambia el color de las estrellas basado en la clase 'dark'
+  // Change the color of the stars based on the 'dark' class
   private updateStarColor(): void {
     const htmlElement = document.documentElement
 
     if (htmlElement.classList.contains('dark')) {
-      this.starColor = '0, 0, 0' // Negro si la clase 'dark' está presente
+      this.starColor = '0, 0, 0' // Black if the 'dark' class is present
     } else {
-      this.starColor = '255, 255, 255' // Blanco si no está presente
+      this.starColor = '255, 255, 255' // White if not present
     }
   }
 }

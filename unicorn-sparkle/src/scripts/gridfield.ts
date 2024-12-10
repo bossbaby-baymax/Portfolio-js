@@ -1,74 +1,74 @@
 /**
- * La funcionalidad de este script está inspirada en este codepen:
+ * The functionality of this script is inspired by this codepen:
 
- * - https://codepen.io/wefiy/pen/JxdzPG - Canvas Grid lines animation
+* - https://codepen.io/wefiy/pen/JxdzPG - Canvas Grid lines animation
  */
 
 export class GridField {
-  private readonly canvas: HTMLCanvasElement // Elemento canvas donde se dibuja la cuadrícula
-  private readonly context: CanvasRenderingContext2D | null // Contexto 2D del canvas
-  private readonly lines: GridLine[] = [] // Arreglo de líneas de la cuadrícula
-  private size: number = 50 // Tamaño de las celdas de la cuadrícula
-  private readonly duration = 4000 // Duración de la animación en milisegundos
-  private startTime: number = 0 // Tiempo de inicio de la animación
-  private animationFrameId: number = 0 // ID del frame de animación
+  private readonly canvas: HTMLCanvasElement // Canvas element where the grid is drawn
+  private readonly context: CanvasRenderingContext2D | null // 2D canvas context
+  private readonly lines: GridLine[] = [] // Arrangement of grid lines
+  private size: number = 50 // Grid cell size
+  private readonly duration = 4000 // Animation duration in milliseconds
+  private startTime: number = 0 // Animation start time
+  private animationFrameId: number = 0 // Animation frame ID
 
   constructor(canvas: HTMLCanvasElement) {
-    this.canvas = canvas // Asigna el canvas recibido
-    this.context = this.canvas.getContext('2d') // Obtiene el contexto 2D
+    this.canvas = canvas // Set the received canvas
+    this.context = this.canvas.getContext('2d') // Get the 2D context
 
-    this.resizeCanvas() // Redimensiona el canvas al inicio
-    window.addEventListener('resize', this.handleResize.bind(this)) // Añade un evento para redimensionar
+    this.resizeCanvas() // Resizes the canvas on startup
+    window.addEventListener('resize', this.handleResize.bind(this)) // Adds an event for resizing
 
-    this.initGrid() // Inicializa la cuadrícula
+    this.initGrid() // Initializes the grid
   }
 
-  // Maneja el evento de redimensionamiento
+  // Handles the resize event
   private handleResize(): void {
-    this.resizeCanvas() // Redimensiona el canvas
-    this.play() // Reinicia la animación
+    this.resizeCanvas() // Resizes the canvas
+    this.play() // Restarts the animation
   }
 
-  // Redimensiona el canvas al tamaño de la ventana
+  // Resizes the canvas to the size of the window
   private resizeCanvas(): void {
-    this.canvas.width = window.innerWidth // Establece el ancho del canvas
-    this.canvas.height = window.innerHeight // Establece la altura del canvas
-    this.size = Math.floor(Math.min(this.canvas.width, this.canvas.height) / 20) // Calcula el tamaño de la cuadrícula
-    this.updateGridLines() // Actualiza las líneas de la cuadrícula
+    this.canvas.width = window.innerWidth // Sets the width of the canvas
+    this.canvas.height = window.innerHeight // Set the height of the canvas
+    this.size = Math.floor(Math.min(this.canvas.width, this.canvas.height) / 20) // Calculate the size of the grid
+    this.updateGridLines() // Update the grid lines
   }
 
-  // Inicializa las líneas que se animarán
+  // Initialize the lines to be animated
   private initGrid(): void {
-    if (this.context === null) return // Verifica que el contexto no sea nulo
-    this.updateGridLines() // Actualiza las líneas
+    if (this.context === null) return // Check that the context is not null
+    this.updateGridLines() // Update the lines
   }
 
-  // Actualiza las posiciones de las líneas de la cuadrícula
+  // Update the positions of the grid lines
   private updateGridLines(): void {
-    if (this.context === null) return // Verifica que el contexto no sea nulo
+    if (this.context === null) return // Check that the context is not null
 
-    const OFFSET = -5 // Desplazamiento para dibujar las líneas
-    const width = this.canvas.width // Ancho del canvas
-    const height = this.canvas.height // Alto del canvas
+    const OFFSET = -5 // Offset to draw the lines
+    const width = this.canvas.width // Width of the canvas
+    const height = this.canvas.height // Height of the canvas
 
-    this.lines.length = 0 // Limpia las líneas previas
+    this.lines.length = 0 // Clear the lines previous lines
 
-    // Dibujar líneas horizontales
+    // Draw horizontal lines
     for (let y = OFFSET; y <= height; y += this.size) {
       const lineLeft = new GridLine(this.context, 0, y, 0, y)
       lineLeft.animateTo({ x: width / 2 }, this.duration, EASING.easeInOutQuad)
-      this.lines.push(lineLeft) // Agrega la línea izquierda
+      this.lines.push(lineLeft) // Add the left line
 
       const lineRight = new GridLine(this.context, width, y, width, y)
       lineRight.animateTo({ x: width / 2 }, this.duration, EASING.easeInOutQuad)
-      this.lines.push(lineRight) // Agrega la línea derecha
+      this.lines.push(lineRight) // Add the right line
     }
 
-    // Dibujar líneas verticales
+    // Draw vertical lines
     for (let x = OFFSET; x <= width; x += this.size) {
       const lineTop = new GridLine(this.context, x, 0, x, 0)
       lineTop.animateTo({ y: height / 2 }, this.duration, EASING.easeInOutQuad)
-      this.lines.push(lineTop) // Agrega la línea superior
+      this.lines.push(lineTop) // Add the top line
 
       const lineBottom = new GridLine(this.context, x, height, x, height)
       lineBottom.animateTo(
@@ -76,91 +76,91 @@ export class GridField {
         this.duration,
         EASING.easeInOutQuad
       )
-      this.lines.push(lineBottom) // Agrega la línea inferior
+      this.lines.push(lineBottom) // Add the bottom line
     }
   }
 
-  // Método de animación principal
+  // Main animation method
   private animate(currentTime: number): void {
-    const progress = Math.min(1, (currentTime - this.startTime) / this.duration) // Calcula el progreso
+    const progress = Math.min(1, (currentTime - this.startTime) / this.duration) // Calculate progress
 
-    if (this.context === null) return // Verifica que el contexto no sea nulo
+    if (this.context === null) return // Check that the context is not null
 
-    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height) // Limpia el canvas
+    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height) // Clear the canvas
 
-    // Dibujar todas las líneas
+    // Draw all lines
     this.lines.forEach((line) => {
-      line.draw(progress) // Dibuja cada línea en base al progreso
+      line.draw(progress) // Draw each line based on progress
     })
 
-    // Si la animación no ha terminado, continua la animación
+    // If the animation hasn't finished, continue the animation
     if (progress < 1) {
       this.animationFrameId = requestAnimationFrame(this.animate.bind(this))
     } else {
-      this.animationFrameId = 0 // Reinicia el ID de la animación
+      this.animationFrameId = 0 // Reset the animation ID
     }
   }
 
-  // Iniciar la animación
+  // Start the animation
   public play(): void {
-    this.startTime = performance.now() // Marca el tiempo de inicio
-    this.animate(this.startTime) // Comienza la animación
+    this.startTime = performance.now() // Mark the start time
+    this.animate(this.startTime) // Start the animation
   }
 }
 
-// Define el tipo de función para el easing
+// Define the type of function for easing
 type EasingFunction = (t: number, b: number, c: number, d: number) => number
 
-// Definimos el sistema de easing (interpolación suave)
+// Define the easing system (smooth interpolation)
 const EASING = {
   easeInOutQuad: ((t, b, c, d) => {
-    t /= d / 2 // Normaliza el tiempo
-    if (t < 1) return (c / 2) * t * t + b // Easing hacia adelante
+    t /= d / 2 // Normalize the time
+    if (t < 1) return (c / 2) * t * t + b // Easing forwards
     t-- // Reduce t
-    return (-c / 2) * (t * (t - 2) - 1) + b // Easing hacia atrás
+    return (-c / 2) * (t * (t - 2) - 1) + b // Easing backwards
   }) as EasingFunction
 }
 
-// Clase para animar propiedades
+// Class to animate properties
 class Animatable {
   private animation: {
-    target: Record<string, number> // Objetivo de las propiedades a animar
-    duration: number // Duración de la animación
-    easing: EasingFunction // Función de easing
-  } | null = null // Inicializa la animación como nula
+    target: Record<string, number> // Target of the properties to animate
+    duration: number // Duration of the animation
+    easing: EasingFunction // Easing function
+  } | null = null // Initialize the animation to null
 
-  // Método para animar a propiedades específicas
+  // Method to animate to specific properties
   animateTo(
     properties: Record<string, number>,
     duration: number,
     easing: EasingFunction
   ): void {
-    this.animation = { target: properties, duration, easing } // Configura la animación
+    this.animation = { target: properties, duration, easing } // Set up the animation
   }
 
-  // Obtiene la propiedad animada en base al progreso
+  // Get the animated property based on progress
   protected _getAnimatedProperty(
     property: string,
     progress: number,
     start: number
   ): number {
     if (this.animation?.target[property] !== undefined) {
-      const change = this.animation.target[property] - start // Calcula el cambio
+      const change = this.animation.target[property] - start // Calculate the change
       return this.animation.easing(
         progress * this.animation.duration,
         start,
         change,
         this.animation.duration
-      ) // Aplica la función de easing
+      ) // Apply the easing function
     }
-    return start // Retorna el valor inicial si no hay animación
+    return start // Return the initial value if there is no animation
   }
 }
 
-// Clase para representar una línea de la cuadrícula
+// Class to render a grid line
 class GridLine extends Animatable {
-  private readonly startX: number // Posición inicial en X
-  private readonly startY: number // Posición inicial en Y
+  private readonly startX: number // Initial position in X
+  private readonly startY: number // Initial position in Y
 
   constructor(
     private readonly context: CanvasRenderingContext2D,
@@ -170,19 +170,19 @@ class GridLine extends Animatable {
     endY: number
   ) {
     super()
-    this.startX = startX // Asigna la posición inicial en X
-    this.startY = startY // Asigna la posición inicial en Y
+    this.startX = startX // Assigns the initial position in X
+    this.startY = startY // Assigns the initial position in Y
   }
 
-  // Método para dibujar la línea
+  // Method to draw the line
   draw(progress: number): void {
-    const x = this._getAnimatedProperty('x', progress, this.startX) // Obtiene la posición animada en X
-    const y = this._getAnimatedProperty('y', progress, this.startY) // Obtiene la posición animada en Y
+    const x = this._getAnimatedProperty('x', progress, this.startX) // Gets the animated position in X
+    const y = this._getAnimatedProperty('y', progress, this.startY) // Gets the animated position in Y
 
-    this.context.beginPath() // Comienza un nuevo camino
-    this.context.moveTo(this.startX, this.startY) // Mueve a la posición inicial
-    this.context.lineTo(x, y) // Dibuja la línea hasta la posición animada
-    this.context.strokeStyle = 'rgba(128, 128, 128, 0.44)' // Color de las líneas
-    this.context.stroke() // Dibuja la línea en el canvas
+    this.context.beginPath() // Begin a new path
+    this.context.moveTo(this.startX, this.startY) // Move to the start position
+    this.context.lineTo(x, y) // Draw the line to the animated position
+    this.context.strokeStyle = 'rgba(128, 128, 128, 0.44)' // Color of the lines
+    this.context.stroke() // Draw the line on the canvas
   }
 }

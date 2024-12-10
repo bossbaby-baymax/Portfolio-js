@@ -3,7 +3,7 @@ import { Icon } from 'astro-icon/components'
 import { switchLocalePath, t } from 'i18n:astro'
 import ToggleSwitch from '@components/ToggleSwitch.astro'
 
-// Obtenemos los enlaces de la navegación de locales
+// We get the links from the local navigation
 const links = t('navbar', { returnObjects: true })
 ---
 
@@ -21,15 +21,13 @@ const links = t('navbar', { returnObjects: true })
     <li>
       <a
         class="language"
-        href={Astro.url.pathname.includes('/en')
-          ? switchLocalePath('es')
-          : switchLocalePath('en')}
+        href={switchLocalePath('en')}
       >
         <span>
           <Icon name="language" size={18} />
         </span>
         <span>
-          {Astro.url.pathname.includes('/en') ? 'Español' : 'English'}
+          {'English'}
         </span>
       </a>
     </li>
@@ -47,15 +45,13 @@ const links = t('navbar', { returnObjects: true })
     {links.map(({ label, href }) => <a href={href}>{label}</a>)}
     <a
       class="language"
-      href={Astro.url.pathname.includes('/en')
-        ? switchLocalePath('es')
-        : switchLocalePath('en')}
+      href={switchLocalePath('en')}
     >
       <span>
         <Icon name="language" size={18} />
       </span>
       <span>
-        {Astro.url.pathname.includes('/en') ? 'Español' : 'English'}
+        {'English'}
       </span>
     </a>
     <div>
@@ -67,7 +63,7 @@ const links = t('navbar', { returnObjects: true })
   </button>
 </dialog>
 
-<!-- Este script se ejecuta cuando se carga la página y pueda aplicar el estilo correspondiente a .toggle-thumb -->
+<!-- This script runs when the page loads and can apply the style corresponding to .toggle-thumb -->
 <script is:inline>
   if (localStorage.getItem('dark-theme') === 'true') {
     document.querySelector('.toggle-thumb').classList.add('active')
@@ -175,7 +171,7 @@ const links = t('navbar', { returnObjects: true })
     }
 
     & button {
-      /* Con la función color-mix cambia el color del link aplicandole un 40% del color del fondo */
+      /* With the color-mix function, change the color of the link by applying 40% of the background color */
       --hover-color: color-mix(in srgb, var(--text-color), var(--bg-color) 40%);
 
       background: transparent;
@@ -320,7 +316,7 @@ const links = t('navbar', { returnObjects: true })
       if (sectionId && link.href.includes(`#${sectionId}`)) {
         link.classList.add('active')
       } else if (!sectionId && link.href.includes('#top')) {
-        // Activar el enlace del #top cuando estamos en la parte superior
+        // Activate the #top link when we are at the top
         link.classList.add('active')
       } else {
         link.classList.remove('active')
@@ -340,7 +336,7 @@ const links = t('navbar', { returnObjects: true })
         }
       })
 
-      // Si no hay ninguna sección visible y estamos en el top de la página
+      // If there is no section visible and we are at the top of the page
       if (!isAnySectionVisible && window.scrollY === 0) {
         handleActiveLink(null) // Activar el enlace de #top
       } else if (isAnySectionVisible) {
@@ -348,12 +344,12 @@ const links = t('navbar', { returnObjects: true })
       }
     },
     {
-      threshold: 0.1, // Detectar cuando la sección está al menos en un 10% visible
-      rootMargin: '0px 0px -40% 0px' // Ajustar el margen para detectar la visibilidad
+      threshold: 0.1, // Detect when the section is at least 10% visible
+      rootMargin: '0px 0px -40% 0px' // Adjust margin to detect visibility
     }
   )
 
-  // Observar cada sección
+  // Observe each section
   mainSections.forEach((section) => observer.observe(section))
 
   // Agregar una verificación para cuando el usuario regresa al inicio
@@ -368,10 +364,10 @@ const links = t('navbar', { returnObjects: true })
   const toggleSwitchs = document.querySelectorAll('.toggle')
   const toggleThumbs = document.querySelectorAll('.toggle-thumb')
 
-  // Establecemos una variable global
+  // We set a global variable
   let darkModeState = false
 
-  // Detectamos si el usuario tiene habilitado el modo oscuro
+  // We detect if the user has dark mode enabled
   const getScheme = window.matchMedia('(prefers-color-scheme: dark)')
 
   function toggleDarkMode(state: boolean) {
@@ -380,33 +376,32 @@ const links = t('navbar', { returnObjects: true })
       thumb.classList.toggle('active', state)
     })
 
-    // Establecemos el valor de la variable global
-    // con el valor del parámetro state
+    // We set the value of the global variable
+    // with the value of the state parameter
     darkModeState = state
   }
 
-  // Creamos una nueva función para almacenar el valor en localStorage
+// We create a new function to store the value in localStorage
   function setSchemeState(state: boolean) {
     localStorage.setItem('dark-theme', String(state))
   }
 
   // toggleDarkMode(getScheme.matches)
-  // Reemplazamos el valor obtenido por la variable getScheme
-  // por el valor que esté guardado en localStorage, para que
-  // al cargar la página verifique el valor almacenado en
+  // We replace the value obtained by the variable getScheme
+  // with the value that is stored in localStorage, so that
+  // when loading the page it verifies the value stored in
   // localStorage
   toggleDarkMode(localStorage.getItem('dark-theme') === 'true')
 
-  // Escuchamos los cambios en las configuración del
-  // del sistema operativo para alternar de tema
+  // We listen for changes in the operating system configuration to switch themes
   getScheme.addEventListener('change', () => {
-    // Negamos el valor guardado dentro de la función toggleDarkMode
-    // a la variable global darkModeState y se lo asignamos así misma
+    // We negate the value stored inside the toggleDarkMode function
+    // to the global variable darkModeState and assign it to itself
     darkModeState = !darkModeState
 
     // document.documentElement.classList.toggle('dark')
-    // Llamamos a la funciones toggleDarkMode para alternar el tema
-    // y setSchemeState para guardar el valor en localStorage
+    // We call the toggleDarkMode functions to toggle the theme
+    // and setSchemeState to save the value in localStorage
     toggleDarkMode(darkModeState)
     setSchemeState(darkModeState)
   })
@@ -421,7 +416,7 @@ const links = t('navbar', { returnObjects: true })
   })
 
   window.addEventListener('keydown', (e) => {
-    // Detectamos si las teclas Alt, Shift y D están presionadas
+    // We detect if the Alt, Shift and D keys are pressed
     if (e.altKey === true && e.shiftKey === true && e.key === 'D') {
       darkModeState = !darkModeState
 

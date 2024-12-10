@@ -1,64 +1,62 @@
-# 🚑 Hotfix: [Título breve del hotfix]
+# 🚑 Hotfix: [Short title of the hotfix]
 
-### 📋 Descripción del problema
+### 📋 Problem description
 
-**Resumen del problema crítico:**
-_Explica de manera concisa el problema urgente que está causando un comportamiento inadecuado o bloqueo en la aplicación. ¿Qué es lo que no estaba funcionando? ¿Qué impacto tuvo en los usuarios o en el sistema?_
+**Critical issue summary:**
+_Concisely explain the urgent issue that is causing the application to behave incorrectly or crash. What was not working? What impact did it have on users or the system?_
 
-**Contexto y urgencia:**
-_Detalla por qué este hotfix es necesario de manera inmediata. ¿Afecta a todos los usuarios? ¿Está provocando fallos en producción?_
+**Context and urgency:**
+_Detail why this hotfix is ​​needed immediately. Does it affect all users? Is it causing crashes in production?_
 
-**Issue relacionado (si existe):**
-_Si el bug está asociado a un issue existente, menciónalo aquí (ej. Closes #123). De lo contrario, por favor crea un [nuevo issue][issue]._
+**Related issue (if any):**
+_If the bug is associated with an existing issue, mention it here (e.g. Closes #123). Otherwise, please create a [new issue][issue]._
 
-### 🔧 Solución propuesta
+### 🔧 Proposed solution
 
-**Descripción de la Solución:**
-_Describe los cambios aplicados para resolver el problema crítico. Explica de manera técnica qué has cambiado y por qué la solución resuelve el problema urgentemente._
+**Solution description:**
+_Describe the changes applied to resolve the critical issue. Explain in a technical way what you changed and why the fix urgently resolves the issue._
 
-**Archivos modificados:**
-_Indica los archivos en los que realizaste los cambios, por ejemplo:_
+**Files changed:**
+_List the files you made changes to, for example:_
 
 - `src/components/Auth.js`
 - `src/utils/errorHandler.js`
 
-### 🧪 Pruebas realizadas
+### 🧪 Tests performed
 
-**Pruebas para Validar la Solución:**
-_Describe las pruebas manuales y automatizadas que realizaste para asegurarte de que el hotfix resuelve el problema sin introducir otros errores._
+**Tests to Validate the Solution:**
+_Describe the manual and automated tests you performed to ensure that the hotfix resolves the issue without introducing additional errors._
 
-- [ ] Validación de que el problema ya no ocurre bajo las condiciones específicas que lo provocaban.
-- [ ] Test automatizados actualizados o añadidos (si es aplicable).
+- [ ] Validation that the issue no longer occurs under the specific conditions that caused it.
+- [ ] Automated tests updated or added (if applicable).
 
-### ⏩ Comportamiento esperado
+### ⏩ Expected behavior
 
-**Resultado tras el hotfix:**
-_Detalla el comportamiento correcto esperado después de aplicar este hotfix. Explica qué se espera que funcione correctamente ahora que el problema ha sido solucionado._
+**Result after hotfix:**
+_Detail the correct behavior expected after applying this hotfix. Explain what is expected to work correctly now that the issue has been fixed._
 
-### 📸 Capturas de pantalla, videos o GIFs (Opcional)
+### 📸 Screenshots, videos, or GIFs (Optional)
 
-_Incluye capturas de pantalla, videos o GIFs que muestren el error antes del hotfix y su solución en acción. Esto ayudará a los revisores a ver rápidamente el impacto del hotfix. Si no aplica, puedes eliminar esta sección._
+_Include screenshots, videos, or GIFs that show the bug before the hotfix and its fix in action. This will help reviewers quickly see the impact of the hotfix. If it's not applicable, you can skip this section._
 
-### ⚠️ Impacto del hotfix
+### ⚠️ Impact of the hotfix
 
-**Impacto potencial:**
-_Explica si este hotfix podría tener efectos colaterales o si es un cambio contenido que solo afecta la parte problemática del código. ¿Hay algún riesgo en otras áreas de la aplicación?. Si no aplica, puedes eliminar esta sección._
+**Potential impact:**
+_Explain whether this hotfix might have side effects, or if it's a contained change that only affects the problematic part of the code. Are there any risks to other areas of the application? If it doesn't apply, you can delete this section._
 
-### 🔄 Siguientes Pasos
+### 🔄 Next Steps
 
-_Si este hotfix es solo una solución temporal, menciona los próximos pasos para resolver el problema de forma definitiva, o si es necesario refactorizar o mejorar alguna parte del código más adelante._
+_If this hotfix is ​​just a temporary solution, mention the next steps to permanently resolve the issue, or if any code needs to be refactored or improved later._
 
 ### 📦 Checklist
 
-Antes de enviar la Pull Request, asegúrate de haber completado este checklist:
+Before submitting the Pull Request, make sure you've completed this checklist:
 
-- [ ] He probado la solución en el entorno de staging.
-- [ ] El hotfix está enfocado únicamente en resolver el problema crítico.
-- [ ] Mi PR está vinculada correctamente a un issue o ticket de urgencia.
-- [ ] Todas las pruebas relevantes han sido ejecutadas y pasadas (si aplica).
-- [ ] Acepto que mi PR se alinea con el [Código de Conducta de UXCorpRangel][codigo-de-conducta].
+- [ ] I have tested the solution in the staging environment.
+- [ ] The hotfix is ​​focused only on solving the critical problem.
+- [ ] My PR is correctly linked to an urgent issue or ticket.
+- [ ] All relevant tests have been executed and passed (if applicable).
 
-Agradezco su pronta revisión y colaboración en este hotfix. Estoy disponible para cualquier comentario o ajuste necesario para que el hotfix sea implementado rápidamente. ¡Gracias por su apoyo! 😄
+I appreciate your prompt review and collaboration on this hotfix. I am available for any comments or adjustments needed to get the hotfix implemented quickly. Thank you for your support! 😄
 
-[issue]: https://github.com/UXCorpRangel/portfolios-dev/issues/new
-[codigo-de-conducta]: https://github.com/UXCorpRangel/.github/blob/main/CODE_OF_CONDUCT.md
+[issue]: https://github.com/bossbaby-baymax/Portfolio-js/issues/new

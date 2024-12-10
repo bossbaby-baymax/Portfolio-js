@@ -1,6 +1,6 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Senior Full-Stack Developer - Jordan Wooding",
+  "description": "Senior Full Stack Developer from Pleasanville, New Jersey. Specialist in Astro, React, MongoDB, JavaScript ES6+, Node.js and WordPress.",
   "navbar": [
     {
       "label": "Home",
@@ -21,27 +21,58 @@
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "title": "Hello I'm Jordan Wooding!",
+    "job_title": "<strong>Senior Full Stack Developer</strong> from Pleasanville, New Jersey.",
+    "description": "My Stack: Astro, React, VueJS, MongoDB, JavaScript ES6+, Node.js and WordPress.",
     "cta": "Contact me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["Remote", "On-Site", "Work in Office", "Freelancer"],
       "jobs_description": [
         {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Senior Full-Stack Engineer",
+          "time": ["May 2021", "Oct 2024"],
+          "description": [
+            "- Developed and maintained complex web applications using React, Astro, Node.js, and MongoDB.",
+            "- Integrated cloud-based solutions and CI/CD pipelines, reducing deployment times by 24%.", 
+            "- Mentored junior developers and led a team of 8 engineers to complete projects on schedule.",
+            "- Spearheaded the implementation of cybersecurity measures, safeguarding client data."
+          ],
+          "list": ["Design of websites", "Optimization of database", "Team Spriit", "Time-Keeping Skill"]
         },
         {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Senior Full-Stack Developer",
+          "time": ["Jun 2018", "Apr 2021"],
+          "description": [
+            "- Designed and deployed software applications using ASP.Net, Angular in healthcare sectors.",
+            "- Optimized backend performance, reducing query response times by 13%.",
+            "- Streamlined Agile workflows and introduced automation scripts, saving 8% on development time."
+          ],
+          "list": ["Design of websites", "Optimization of Backend", "Response Time Reduce"]
+        },
+        {
+          "title": "Web Application Developer",
+          "time": ["Jun 2015", "Apr 2018"],
+          "description": [
+            "- Built dynamic, user-friendly web applications using Vue.js, Python (Django), and PostgreSQL.",
+            "- Designed and implemented RESTful APIs to integrate third-party services and enhance functionality.",
+            "- Conducted usability testing and optimized UI/UX design for enterprise applications.",
+            "- Supported and maintained legacy systems while transitioning clients to modern tech stacks."
+          ],
+          "list": ["Team Work", "Collaborative Work", "Design Structure & User Interfaces "]
+        },
+        {
+          "title": "Full-Stack Developer",
+          "time": ["Mar 2013", "May 2015"],
+          "description": [
+            "- Created end-to-end solutions using Laravel, GraphQL, and React, improving system scalability and performance.",
+            "- Designed and implemented efficient data models to manage large-scale datasets.",
+            "- Participated in code reviews and contributed to the standardization of coding practices.",
+            "- Collaborated with DevOps teams to deploy applications in AWS environments, achieving 99.9% uptime."
+          ],
+          "list": ["Design for Users", "Time-Keeping Management"]
         }
       ]
     }
@@ -50,31 +81,32 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
+        "title": "ClerkedApp-MERN site",
+        "description": "This app is kind of healthcare app that lets doctors and patients can schedule the meeting, as well as doctors can take care of the patients with detailed information such as blood pressure, temperature, heart rate, etc.",
+        "image": "/src/images/projects/clerkedapp.jpg",
+        "techs": ["React", "TailwindCSS", "Mongodb", "TypeScript"],
         "code": "Code",
         "preview": "Preview"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
+        "title": "Portfolio",
+        "description": "This is my first project using Astro. On my holiday, I made this to improve my another language skill which is getting famous framework. In this project, I optimized the response time and built the user-friendly interfaces.",
+        "image": "/src/images/projects/portfolio.png",
         "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
         "code": "Code",
         "preview": "Preview"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
+        "title": "Hopprfy-Deliveroo, Uber Eats, Just Eat",
+        "description": "Hopprfy is kind of ecommerce system which provides the world fee-neutral marketplace and delivery system which eliminate the problems prevalent in third party marketplaces.",
+        "image": "/src/images/projects/hopprfy.png",
         "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
+          "Vue",
           "TypeScript",
-          "PWA",
+          "Mongodb",
+          "NodeJS",
+          "TailwindCSS",
+          "SASS",
           "Firebase"
         ],
         "code": "Code",
@@ -119,8 +151,8 @@
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "subtitle": "I'm Jordan Wooding. I love Baymax, so my git name contains baymax.",
+    "description": "I am a Senior Full-Stack Developer with over 10 years of experience in Web Development. I participated to develop scalable and extensive project and in this project, I fixed some critical bugs and suggested innovative and constructive ideas. My core skills are time-keeping management and team collaboration."
   },
   "contact": {
     "title": "Ready to make your dreams come true?",

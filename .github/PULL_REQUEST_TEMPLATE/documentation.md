@@ -1,51 +1,49 @@
-# 📚 Actualización de documentación: [Título breve]
+# 📚 Documentation Update: [Short Title]
 
-### 📋 Descripción
+### 📋 Description
 
-**Resumen de los cambios en la documentación:**
-_Describe brevemente qué cambios realizaste en la documentación. Puede incluir secciones nuevas, actualizaciones de contenido existente o correcciones, ya sea de código o del repositorio._
-_Ejemplo: Se añadieron instrucciones para la configuración de ambiente local._
+**Summary of Documentation Changes:**
+_Briefly describe what changes you made to the documentation. This may include new sections, updates to existing content, or fixes to either the code or the repository._
+_Example: Added instructions for setting up a local environment._
 
-### 🔧 Secciones modificadas/añadidas
+### 🔧 Changed/Added Sections
 
-**Archivos o secciones de documentación afectadas:**
-_Lista aquí los archivos o secciones del proyecto que fueron modificados o añadidos. Esto ayuda a los revisores a localizar rápidamente las áreas afectadas._
-_Ejemplo:_
+**Affected Documentation Files or Sections:**
+_List the files or sections in your project that were changed or added here. This helps reviewers quickly locate affected areas._
+_Example:_
 
-- `docs/setup.md` (Nueva sección añadida)
-- `README.md` (Actualización de pasos de instalación)
-- `docs/api/overview.md` (Corrección de errores tipográficos)
+- `docs/setup.md` (New section added)
+- `README.md` (Update to installation steps)
+- `docs/api/overview.md` (Typo fixes)
 
-**Issue relacionado (si existe):**
-_Si la actualización o cambio añadido a la documentación está asociado a un issue existente o solicitud de la comunidad, menciónalo aquí (ej. Closes #123). De lo contrario, por favor crea un [nuevo issue][issue]._
+**Related issue (if any):**
+_If the update or change added to the documentation is associated with an existing issue or community request, please mention it here (e.g. Closes #123). Otherwise, please create a [new issue][issue]._
 
-### 📝 Razón para los cambios
+### 📝 Reason for changes
 
-**Motivación de la actualización:**
-_Explica por qué se realizaron estos cambios en la documentación. ¿Fue para agregar más claridad? ¿Para actualizar contenido obsoleto? ¿Hubo un cambio en la funcionalidad que necesitaba ser documentado?_
-_Ejemplo: Se añadieron nuevas instrucciones para configurar variables de entorno, ya que la funcionalidad del proyecto ha cambiado._
+**Reason for update:**
+_Explain why these changes were made to the documentation. Was it to add more clarity? To update outdated content? Was there a change in functionality that needed to be documented?_
+_Example: New instructions for setting environment variables were added, as the functionality of the project has changed._
 
-### ✅ Detalles técnicos relevantes
+### ✅ Relevant technical details
 
-**Cambios técnicos relacionados (si aplica):**
-_Si la actualización de la documentación está relacionada con algún cambio técnico reciente, menciónalo aquí. Por ejemplo, si una nueva feature fue añadida y ahora necesita estar documentada, o si hubo una refactorización que afecta a la documentación._
+**Related technical changes (if applicable):**
+_If the documentation update is related to a recent technical change, mention it here. For example, if a new feature was added and now needs to be documented, or if there was a refactoring that affects the documentation._
 
-### 📸 Capturas de Pantalla, videos o GIFs (Opcional)
+### 📸 Screenshots, videos, or GIFs (Optional)
 
-_Si has realizado cambios significativos en la documentación que afectan la interfaz de usuario (UI), puedes incluir capturas de pantalla, videos o GIFs que muestren cómo se ven esos cambios. Esto puede ser útil para visualizar cómo debería aparecer la documentación o una funcionalidad descrita. Si no aplica, puedes eliminar esta sección._
+_If you've made significant changes to the documentation that affect the user interface (UI), you can include screenshots, videos, or GIFs that show what those changes look like. This can be helpful to visualize how the documentation or a described feature should appear. If it doesn't apply, you can delete this section._
 
 ### 🔄 Checklist
 
-Revisa los siguientes puntos antes de enviar la PR:
+Please review the following points before submitting the PR:
 
-- [ ] Se revisó que los cambios estén alineados con el estilo y formato del resto de la documentación.
-- [ ] Se verificó que no haya errores tipográficos o de sintaxis en el contenido actualizado.
-- [ ] Se ha comprobado que todos los enlaces y referencias dentro de la documentación sean correctos y funcionen.
-- [ ] La documentación está actualizada y clara para nuevos colaboradores o usuarios del proyecto.
-- [ ] Los cambios realizados son precisos y reflejan correctamente las funcionalidades actuales del proyecto (si aplica).
-- [ ] Acepto que mi PR se alinea con el [Código de Conducta de UXCorpRangel][codigo-de-conducta].
+- [ ] The changes have been reviewed to ensure they are aligned with the style and format of the rest of the documentation.
+- [ ] The updated content has been verified to be free of typographical or syntax errors.
+- [ ] All links and references within the documentation have been verified to be correct and functional.
+- [ ] The documentation is up-to-date and clear for new contributors or users of the project.
+- [ ] The changes made are accurate and correctly reflect the current functionalities of the project (if applicable).
 
-Agradezco de antemano la revisión de esta actualización. Estoy abierto/a a cualquier sugerencia para mejorar la claridad o el formato de la documentación. 😄
+I appreciate the review of this update in advance. I am open to any suggestions to improve the clarity or format of the documentation. 😄
 
-[issue]: https://github.com/UXCorpRangel/portfolios-dev/issues/new
-[codigo-de-conducta]: https://github.com/UXCorpRangel/.github/blob/main/CODE_OF_CONDUCT.md
+[issue]: https://github.com/bossbaby-baymax/Portfolio-js/issues/new

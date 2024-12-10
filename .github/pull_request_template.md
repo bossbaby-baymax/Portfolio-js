@@ -1,63 +1,72 @@
-# 📣 ¡IMPORTANTE!
+# 📣 IMPORTANT!
 
-Antes de enviar tu Pull Request, asegúrate de utilizar las plantillas de PR proporcionadas en este repositorio. Esto ayudará a garantizar que tu PR sea revisada y aprobada de manera rápida y eficiente.
+Before submitting your Pull Request, be sure to use the PR templates provided in this repository. This will help ensure that your PR is reviewed and approved quickly and efficiently.
 
-Para utilizar una de las plantillas añade el siguiente texto en el URL de tu PR:
+To use one of the templates add the following text to your PR URL:
 
 ```txt
-&template=nombre_de_la_plantilla.md
+&template=template_name.md
 ```
 
-Por ejemplo, si quieres utilizar la plantilla de [add_community_template.md][add_community_template], deberás agregar el siguiente texto a la URL de tu PR:
+For example, if you want to use the [add_community_template.md][add_community_template] template, you would add the following text to your PR URL:
 
 ```txt
 &template=add_community_template.md
 ```
 
-Si quieres utilizar la plantilla de [bug.md][bug-template], deberás agregar el siguiente texto a la URL de tu PR:
+If you want to use the [bug.md][bug-template] template, you would add the following text to your PR URL:
 
 ```txt
 &template=bug.md
 ```
 
-Si quieres utilizar la plantilla de [documentation.md][documentation-template], deberás agregar el siguiente texto a la URL de tu PR:
+If you want to use the [documentation.md][documentation-template] template, you would add the following text to your PR URL:
 
 ```txt
 &template=documentation.md
 ```
 
-Si quieres utilizar la plantilla de [feature.md][feature-template], deberás agregar el siguiente texto a la URL de tu PR:
+If you want to use the [bug.md][bug-template] template, you would add the following text to your PR URL:
+
+```txt
+&template=bug.md
+```
+
+If you want to use the [documentation.md][documentation-template] template, you would add the following text to your PR URL:
+
+```txt
+&template=documentation.md
+```
+
+[feature.md][feature-template], you will need to add the following text to your PR URL:
 
 ```txt
 &template=feature.md
 ```
 
-Si quieres utilizar la plantilla de [hotfix.md][hotfix-template], deberás agregar el siguiente texto a la URL de tu PR:
+If you want to use the [hotfix.md][hotfix-template] template, you will need to add the following text to your PR URL:
 
 ```txt
 &template=hotfix.md
 ```
 
-Si quieres utilizar la plantilla de [refactor.md][refactor-template], deberás agregar el siguiente texto a la URL de tu PR:
+If you want to use the [refactor.md][refactor-template] template, you will need to add the following text to your PR URL:
 
 ```txt
 &template=refactor.md
 ```
 
-Puedes ver todas las plantillas disponibles en el siguiente enlace, asegurándote de utilizar la plantilla correcta:
+You can see all the available templates at the following link, making sure you use the correct template:
 
-https://github.com/UXCorpRangel/portfolios-dev/tree/main/.github/PULL_REQUEST_TEMPLATE
+https://github.com/bossbaby-baymax/Portfolio-js/tree/main/.github/PULL_REQUEST_TEMPLATE
 
-Esta es una limitación de GitHub que no permite utilizar plantillas de PR en los Pull Requests desde la interfaz web (como lo indica en el punto número 3 de la documentación de GitHub sobre plantillas de PR).
+This is a GitHub limitation that does not allow using templates from PRs in Pull Requests from the web interface (as indicated in point number 3 of the GitHub documentation on PR templates).
 
-Referencias:
+References:
 
-- https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
-- https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/using-query-parameters-to-create-a-pull-request
+Thank you for your contribution to [JS Portfolio][js-portfolio]! 💖
 
-¡Gracias por tu contribución a [Portafolios Dev][portfolios-dev]! 💖
-
-[portfolios-dev]: https://github.com/UXCorpRangel/portfolios-dev
+[portfolio-js]: https://github.com/bossbaby-baymax/Portfolio-js
 [add_community_template]: ./PULL_REQUEST_TEMPLATE/add_community_template.md
 [bug-template]: ./PULL_REQUEST_TEMPLATE/bug.md
 [documentation-template]: ./PULL_REQUEST_TEMPLATE/documentation.md
