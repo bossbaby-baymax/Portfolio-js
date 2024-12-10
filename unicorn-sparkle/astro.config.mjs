@@ -25,8 +25,8 @@ export default defineConfig({
     icon(),
     astroImageTools,
     i18n({
-      defaultLocale: 'es',
-      locales: ['es', 'en']
+      defaultLocale: 'en',
+      locales: ['en']
     }),
     sitemap({
       canonicalURL: URL,
@@ -39,9 +39,9 @@ export default defineConfig({
         image: false
       },
       i18n: {
-        defaultLocale: 'es',
+        defaultLocale: 'en',
         locales: {
-          es: 'es'
+          en: 'en'
         }
       },
       // Remove trailing slash
