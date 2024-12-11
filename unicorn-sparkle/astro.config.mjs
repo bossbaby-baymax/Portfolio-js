@@ -77,5 +77,8 @@ export default defineConfig({
       SVG: false
     }),
     compressor()
-  ]
+  ],
+  build: {
+    out: 'dist'
+  }
 })
