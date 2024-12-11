@@ -80,5 +80,8 @@ export default defineConfig({
   ],
   build: {
     out: 'dist'
+  },
+  buildOptions: {
+    out: './dist' // Or specify your custom output directory
   }
 })
