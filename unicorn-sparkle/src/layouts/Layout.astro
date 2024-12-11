@@ -130,7 +130,10 @@ const { title, description, metaRobots } = options
     {description && <meta name="description" content={description} />}
     {description && <link href={Astro.url.href} rel="canonical" />}
     <I18NHead />
-    <meta name="author" content="Jordan Wooding - https://www.linkedin.com/in/jordan-wooding-75053a338/" />
+    <meta
+      name="author"
+      content="Jordan Wooding - https://www.linkedin.com/in/jordan-wooding-75053a338/"
+    />
     <meta name="generator" content={Astro.generator} />
 
     {
@@ -141,10 +144,9 @@ const { title, description, metaRobots } = options
             '@type': 'Person',
             name: 'Jordan Wooding',
             url: 'https://www.linkedin.com/in/jordan-wooding-75053a338/',
-            image: 'https://media.licdn.com/dms/image/v2/D4E03AQGP3uuTVPqi7A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1732031240743?e=1739404800&v=beta&t=oaOLy1t6up7xcKtjp9EqjmGwU1Hi8dgHBNHUuaAGnNY',
-            sameAs: [
-              'https://github.com/bossbaby-baymax'
-            ],
+            image:
+              'https://media.licdn.com/dms/image/v2/D4E03AQGP3uuTVPqi7A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1732031240743?e=1739404800&v=beta&t=oaOLy1t6up7xcKtjp9EqjmGwU1Hi8dgHBNHUuaAGnNY',
+            sameAs: ['https://github.com/bossbaby-baymax'],
             jobTitle: 'Senior Full-Stack Developer & Web application Developer'
           }}
         />

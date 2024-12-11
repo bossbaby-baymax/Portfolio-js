@@ -19,10 +19,7 @@ const links = t('navbar', { returnObjects: true })
       ))
     }
     <li>
-      <a
-        class="language"
-        href={switchLocalePath('en')}
-      >
+      <a class="language" href={switchLocalePath('en')}>
         <span>
           <Icon name="language" size={18} />
         </span>
@@ -43,10 +40,7 @@ const links = t('navbar', { returnObjects: true })
 <dialog>
   <nav>
     {links.map(({ label, href }) => <a href={href}>{label}</a>)}
-    <a
-      class="language"
-      href={switchLocalePath('en')}
-    >
+    <a class="language" href={switchLocalePath('en')}>
       <span>
         <Icon name="language" size={18} />
       </span>
@@ -381,7 +375,7 @@ const links = t('navbar', { returnObjects: true })
     darkModeState = state
   }
 
-// We create a new function to store the value in localStorage
+  // We create a new function to store the value in localStorage
   function setSchemeState(state: boolean) {
     localStorage.setItem('dark-theme', String(state))
   }

@@ -68,7 +68,7 @@ With PNPM:
 ```bash
 pnpm create astro@latest
 ```
-
+    
 Then go into your portfolio folder, install the dependencies and that's it! 🎉.
 
 [👉 Read more][unicorn-sparkle-folder]
@@ -79,17 +79,6 @@ Then go into your portfolio folder, install the dependencies and that's it! 🎉
 > 🚧 Under construction 🚧
 
 ## ❤️ Community Templates
-
-### [🌈 Rainbow Unicorn][rainbow-unicorn-folder]
-
-[![Rainbow Unicorn](./rainbow-unicorn/assets/rainbow-unicorn.gif)][rainbow-unicorn-folder]
-
-Template for developers who want to have a portfolio with a minimalist Bento-style design and with a spectacular functionality of reorganizing sections.
-
-#### 🔗 Links
-
-[![Repository][github-badge]][rainbow-unicorn-repo]
-[![Rainbow Unicorn website][demo-badge]][rainbow-unicorn-demo]
 
 #### 📦 Stack
 

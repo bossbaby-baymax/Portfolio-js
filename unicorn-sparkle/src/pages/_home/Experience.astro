@@ -49,9 +49,10 @@ const normalizeTitle = title
               ))}
               {time.length <= 1 && <span class="badge">Actual</span>}
             </div>
-            <div>{description.map((item) => (
-              <p>{item}</p>
-            ))}
+            <div>
+              {description.map((item) => (
+                <p>{item}</p>
+              ))}
             </div>
             <ul>
               {list.map((item) => (
