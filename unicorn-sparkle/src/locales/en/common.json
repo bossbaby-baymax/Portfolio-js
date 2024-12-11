@@ -8,15 +8,15 @@
     },
     {
       "label": "Experience",
-      "href": "/en/#work-experience"
+      "href": "/#work-experience"
     },
     {
       "label": "Projects",
-      "href": "/en/#projects"
+      "href": "/#projects"
     },
     {
       "label": "About me",
-      "href": "/en/#about-me"
+      "href": "/#about-me"
     }
   ],
   "hero": {
@@ -36,11 +36,16 @@
           "time": ["May 2021", "Oct 2024"],
           "description": [
             "- Developed and maintained complex web applications using React, Astro, Node.js, and MongoDB.",
-            "- Integrated cloud-based solutions and CI/CD pipelines, reducing deployment times by 24%.", 
+            "- Integrated cloud-based solutions and CI/CD pipelines, reducing deployment times by 24%.",
             "- Mentored junior developers and led a team of 8 engineers to complete projects on schedule.",
             "- Spearheaded the implementation of cybersecurity measures, safeguarding client data."
           ],
-          "list": ["Design of websites", "Optimization of database", "Team Spriit", "Time-Keeping Skill"]
+          "list": [
+            "Design of websites",
+            "Optimization of database",
+            "Team Spriit",
+            "Time-Keeping Skill"
+          ]
         },
         {
           "title": "Senior Full-Stack Developer",
@@ -50,7 +55,11 @@
             "- Optimized backend performance, reducing query response times by 13%.",
             "- Streamlined Agile workflows and introduced automation scripts, saving 8% on development time."
           ],
-          "list": ["Design of websites", "Optimization of Backend", "Response Time Reduce"]
+          "list": [
+            "Design of websites",
+            "Optimization of Backend",
+            "Response Time Reduce"
+          ]
         },
         {
           "title": "Web Application Developer",
@@ -61,7 +70,11 @@
             "- Conducted usability testing and optimized UI/UX design for enterprise applications.",
             "- Supported and maintained legacy systems while transitioning clients to modern tech stacks."
           ],
-          "list": ["Team Work", "Collaborative Work", "Design Structure & User Interfaces "]
+          "list": [
+            "Team Work",
+            "Collaborative Work",
+            "Design Structure & User Interfaces "
+          ]
         },
         {
           "title": "Full-Stack Developer",
