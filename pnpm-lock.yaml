@@ -12,8 +12,8 @@ importers:
         specifier: 0.6.0
         version: 0.6.0(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
       '@fontsource-variable/inter':
-        specifier: 5.1.0
-        version: 5.1.0
+        specifier: 5.1.1
+        version: 5.1.1
       '@fontsource/inter':
         specifier: 5.1.0
         version: 5.1.0
@@ -118,8 +118,8 @@ importers:
         specifier: 0.6.0
         version: 0.6.0(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
       '@fontsource-variable/inter':
-        specifier: 5.1.0
-        version: 5.1.0
+        specifier: 5.1.1
+        version: 5.1.1
       '@playform/compress':
         specifier: 0.1.6
         version: 0.1.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.7.2)(yaml@2.6.0)
@@ -631,8 +631,8 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@fontsource-variable/inter@5.1.0':
-    resolution: {integrity: sha512-Wj2dUGP0vUpxRGQTXQTCNJO+aLcFcQm+gUPXfj/aS877bQkEPBPv9JvZJpwdm2vzelt8NTZ+ausKlBCJjh2XIg==}
+  '@fontsource-variable/inter@5.1.1':
+    resolution: {integrity: sha512-OpXFTmiH6tHkYijMvQTycFKBLK4X+SRV6tet1m4YOUH7SzIIlMqDja+ocDtiCA72UthBH/vF+3ZtlMr2rN/wIw==}
 
   '@fontsource/inter@5.1.0':
     resolution: {integrity: sha512-zKZR3kf1G0noIes1frLfOHP5EXVVm0M7sV/l9f/AaYf+M/DId35FO4LkigWjqWYjTJZGgplhdv4cB+ssvCqr5A==}
@@ -5095,7 +5095,7 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@fontsource-variable/inter@5.1.0': {}
+  '@fontsource-variable/inter@5.1.1': {}
 
   '@fontsource/inter@5.1.0': {}
 
