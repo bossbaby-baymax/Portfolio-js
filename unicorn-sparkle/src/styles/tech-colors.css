@@ -20,12 +20,16 @@ html {
     background-color: #4177dd;
     transition: var(--transition-bg);
   }
-  .asp {
+  .asp.net {
     background-color: #41ddd5;
     transition: var(--transition-bg);
   }
   .docker {
-    background-color: white;
+    background-color: rgb(69, 59, 212);
+    transition: var(--transition-bg);
+  }
+  .github {
+    background-color: rgb(212, 59, 143);
     transition: var(--transition-bg);
   }
   .mongodb {
@@ -93,7 +97,15 @@ html.dark {
   .react {
     background-color: #bddaff;
   }
-
+  .asp.net {
+    background-color: #41ddd5;
+  }
+  .docker {
+    background-color: rgb(69, 59, 212);
+  }
+  .github {
+    background-color: rgb(212, 59, 143);
+  }
   .sass {
     background-color: color-mix(in srgb, #602957, #fff 70%);
   }
