@@ -21,7 +21,7 @@
   "scripts": {
     "eslint": "eslint .",
     "dev": "pnpm -C unicorn-sparkle dev",
-    "build": "pnpm -C unicorn-sparkle build output dist",
+    "build": "pnpm -C unicorn-sparkle build output ./dist",
     "prepare": "husky",
     "preview": "pnpm -C unicorn-sparkle preview"
   },
