@@ -22,38 +22,43 @@
   "hero": {
     "job_availability": "Available for work!",
     "title": "Hello I'm Jordan Wooding!",
-    "job_title": "<strong>Senior Full Stack Developer</strong> from Pleasanville, New Jersey.",
-    "description": "My Stack: Astro, React, VueJS, MongoDB, JavaScript ES6+, Node.js and WordPress.",
+    "job_title": "<strong>Senior Full Stack Developer</strong> from Pleasantville, New Jersey.",
+    "description": "My Stack: ASP.Net, C#, AWS, Azure, Docker React, VueJS, MongoDB, JavaScript, Node.js and WordPress.",
     "cta": "Contact me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Remote", "On-Site", "Work in Office", "Freelancer"],
+      "jobs_title": ["Remote", "On-Site", "Remote", "Hybrid"],
       "jobs_description": [
         {
-          "title": "Senior Full-Stack Engineer",
-          "time": ["May 2021", "Oct 2024"],
+          "title": "Web Application Developer",
+          "time": ["May 2021", "Jan 2025"],
           "description": [
-            "- Developed and maintained complex web applications using React, Astro, Node.js, and MongoDB.",
-            "- Integrated cloud-based solutions and CI/CD pipelines, reducing deployment times by 24%.",
-            "- Mentored junior developers and led a team of 8 engineers to complete projects on schedule.",
-            "- Spearheaded the implementation of cybersecurity measures, safeguarding client data."
+            "- Developed and deployed enterprise-grade software applications using ASP.NET, Angular, and SQL Server for Fortune 500 clients in healthcare and finance, enhancing scalability and robustness.",
+            "- Created the Enterprise Resource Planning System (ERPS) with .NET Framework and WPF, integrating finance, HR, and supply chain modules, which reduced operational inefficiencies by 20%.",
+            "- Designed the Social Media Analytics Tool (SMAT) using Vue.js and Express.js, providing insights into social media trends through interactive dashboards, increasing user engagement by 25%.",
+            "- Improved backend performance by 13% through advanced indexing and query optimization, and automated Agile workflows, boosting development efficiency by 8% and reducing manual errors by 15%.",
+            "- Collaborated with UX designers, business analysts, and QA engineers to deliver compliant, user-centric solutions, improving project delivery timelines by 10% and enhancing user satisfaction scores by 18%.",
+            "- Authored comprehensive documentation to support updates and troubleshooting, reducing onboarding time for new developers by 30%, and stayed updated with industry trends, integrating new technologies into projects, leading to a 12% increase in project innovation."
           ],
           "list": [
             "Design of websites",
             "Optimization of database",
-            "Team Spriit",
-            "Time-Keeping Skill"
+            "Team Spirit",
+            "Time-Keeping Management"
           ]
         },
         {
           "title": "Senior Full-Stack Developer",
           "time": ["Jun 2018", "Apr 2021"],
           "description": [
-            "- Designed and deployed software applications using ASP.Net, Angular in healthcare sectors.",
-            "- Optimized backend performance, reducing query response times by 13%.",
-            "- Streamlined Agile workflows and introduced automation scripts, saving 8% on development time."
+            "- Led development of scalable web applications using React, Node.js, and MongoDB, improving performance and user experience by 18%.",
+            "- Implemented cloud infrastructure and CI/CD pipelines with Jenkins and Docker, reducing deployment times by 24% and increasing iteration speed by 30%.",
+            "- Mentored junior developers, resulting in a 97.3% client satisfaction rate and a 20% improvement in team productivity.",
+            "- Enhanced cybersecurity with penetration testing and encryption, achieving 100% compliance with data security regulations.",
+            "- Developed the Autonomous Drone Navigation System (ADNS) using OpenCV and PyTorch, increasing navigation accuracy by 25%.",
+            "- Created the Virtual Reality Experience (VRE) with Three.js and WebGL, enhancing user engagement by 40% in 3D environments."
           ],
           "list": [
             "Design of websites",
@@ -62,13 +67,16 @@
           ]
         },
         {
-          "title": "Web Application Developer",
+          "title": "Software Engineer",
           "time": ["Jun 2015", "Apr 2018"],
           "description": [
-            "- Built dynamic, user-friendly web applications using Vue.js, Python (Django), and PostgreSQL.",
-            "- Designed and implemented RESTful APIs to integrate third-party services and enhance functionality.",
-            "- Conducted usability testing and optimized UI/UX design for enterprise applications.",
-            "- Supported and maintained legacy systems while transitioning clients to modern tech stacks."
+            "- Designed and implemented secure remote access solutions for Panasonic IoT devices and surveillance systems, enhancing real-time monitoring and user safety by 23%.",
+            "- Developed and maintained cloud-based services for video surveillance storage and device management, improving system efficiency by 28% and enabling secure access from any location.",
+            "- Integrated scalable cloud architectures using AWS, boosting data retrieval speeds by 37% and reducing system downtime by 18%.",
+            "- Delivered innovative solutions aligned with industry best practices, ensuring 100% project deadline adherence and maintaining high-quality standards.",
+            "- Analyzed and optimized technical solutions based on customer requirements, integrating new technologies to increase system capabilities by 34%.",
+            "- Developed the Inventory Management System (IMS) using .NET Core and SQL Server, improving inventory tracking efficiency by 30% for businesses",
+            "- Created the Content Management System (CMS) with Next.js and Strapi, enhancing digital content management flexibility and scalability by 40% for websites and blogs."
           ],
           "list": [
             "Team Work",
@@ -80,10 +88,11 @@
           "title": "Full-Stack Developer",
           "time": ["Mar 2013", "May 2015"],
           "description": [
-            "- Created end-to-end solutions using Laravel, GraphQL, and React, improving system scalability and performance.",
-            "- Designed and implemented efficient data models to manage large-scale datasets.",
-            "- Participated in code reviews and contributed to the standardization of coding practices.",
-            "- Collaborated with DevOps teams to deploy applications in AWS environments, achieving 99.9% uptime."
+            "- Designed and built complex web applications using React, PHP, and MongoDB, achieving an 18% improvement in platform performance through code and server optimization.",
+            "- Enhanced data processing pipelines, reducing processing times by 16% and accelerating model development by 8%, boosting productivity by 22%.",
+            "- Delivered scalable, enterprise-grade solutions capable of handling over 1,000 requests per minute, ensuring 99.6% uptime and high availability for critical operations.",
+            "- Recognized by stakeholders and clients for delivering innovative, high-quality web applications, improving user efficiency by 20% and operational reliability by 30%.",
+            "- Integrated third-party APIs to enhance functionality and improve user experience by 16%, and resolved complex technical issues, maintaining optimal system performance and reducing downtime by 19%"
           ],
           "list": ["Design for Users", "Time-Keeping Management"]
         }
@@ -94,10 +103,17 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "ClerkedApp-MERN site",
+        "title": "Content Management System(CMS)",
         "description": "This app is kind of healthcare app that lets doctors and patients can schedule the meeting, as well as doctors can take care of the patients with detailed information such as blood pressure, temperature, heart rate, etc.",
         "image": "/src/images/projects/clerkedapp.jpg",
-        "techs": ["React", "TailwindCSS", "Mongodb", "TypeScript"],
+        "techs": [
+          "React",
+          "Github",
+          "NodeJS",
+          "TailwindCSS",
+          "Mongodb",
+          "TypeScript"
+        ],
         "code": "Code",
         "preview": "Preview"
       },
@@ -110,17 +126,17 @@
         "preview": "Preview"
       },
       {
-        "title": "Hopprfy-Deliveroo, Uber Eats, Just Eat",
-        "description": "Hopprfy is kind of ecommerce system which provides the world fee-neutral marketplace and delivery system which eliminate the problems prevalent in third party marketplaces.",
+        "title": "Financial Analytics System(FAD)",
+        "description": "FAD is a comprehensive analytics tool for financial institutions. It provides real-time data visualization and predictive analytics using machine learning. Built with ASP.NET Core and Blazor, it offers a robust and secure platform for financial data analysis.",
         "image": "/src/images/projects/hopprfy.png",
         "techs": [
-          "Vue",
+          "Asp.Net",
           "TypeScript",
-          "Mongodb",
+          "C#",
           "NodeJS",
           "TailwindCSS",
-          "SASS",
-          "Firebase"
+          "Github",
+          "Docker"
         ],
         "code": "Code",
         "preview": "Preview"

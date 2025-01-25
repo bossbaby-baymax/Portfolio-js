@@ -16,7 +16,18 @@ html {
     background-color: #32547f;
     transition: var(--transition-bg);
   }
-
+  .c {
+    background-color: #4177dd;
+    transition: var(--transition-bg);
+  }
+  .asp {
+    background-color: #41ddd5;
+    transition: var(--transition-bg);
+  }
+  .docker {
+    background-color: white;
+    transition: var(--transition-bg);
+  }
   .mongodb {
     background-color: #83be9c;
     transition: var(--transition-bg);
@@ -26,7 +37,7 @@ html {
     transition: var(--transition-bg);
   }
   .nodejs {
-    background-color: #0f0f0f;
+    background-color: #493886;
     transition: var(--transition-bg);
   }
 
