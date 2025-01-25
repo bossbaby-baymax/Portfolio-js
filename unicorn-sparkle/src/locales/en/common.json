@@ -51,7 +51,7 @@
         },
         {
           "title": "Senior Full-Stack Developer",
-          "time": ["Jun 2018", "Apr 2021"],
+          "time": ["Jul 2018", "Apr 2021"],
           "description": [
             "- Led development of scalable web applications using React, Node.js, and MongoDB, improving performance and user experience by 18%.",
             "- Implemented cloud infrastructure and CI/CD pipelines with Jenkins and Docker, reducing deployment times by 24% and increasing iteration speed by 30%.",
@@ -68,7 +68,7 @@
         },
         {
           "title": "Software Engineer",
-          "time": ["Jun 2015", "Apr 2018"],
+          "time": ["Sep 2015", "Jun 2018"],
           "description": [
             "- Designed and implemented secure remote access solutions for Panasonic IoT devices and surveillance systems, enhancing real-time monitoring and user safety by 23%.",
             "- Developed and maintained cloud-based services for video surveillance storage and device management, improving system efficiency by 28% and enabling secure access from any location.",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Full-Stack Developer",
-          "time": ["Mar 2013", "May 2015"],
+          "time": ["Mar 2013", "Aug 2015"],
           "description": [
             "- Designed and built complex web applications using React, PHP, and MongoDB, achieving an 18% improvement in platform performance through code and server optimization.",
             "- Enhanced data processing pipelines, reducing processing times by 16% and accelerating model development by 8%, boosting productivity by 22%.",
