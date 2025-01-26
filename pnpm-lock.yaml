@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrolicious/i18n':
         specifier: 0.6.0
-        version: 0.6.0(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
+        version: 0.6.0(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.2.2(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
       '@fontsource-variable/inter':
         specifier: 5.1.0
         version: 5.1.0
@@ -116,7 +116,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.2)
       '@astrolicious/i18n':
         specifier: 0.6.0
-        version: 0.6.0(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
+        version: 0.6.0(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.2.2(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
       '@fontsource-variable/inter':
         specifier: 5.1.0
         version: 5.1.0
@@ -145,8 +145,8 @@ importers:
         specifier: 0.1.6
         version: 0.1.6(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))
       i18next:
-        specifier: 24.0.5
-        version: 24.0.5(typescript@5.7.2)
+        specifier: 24.2.2
+        version: 24.2.2(typescript@5.7.2)
       sanitize.css:
         specifier: 13.0.0
         version: 13.0.0
@@ -291,8 +291,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/runtime@7.25.7':
-    resolution: {integrity: sha512-FjoyLe754PMiYsFaN5C94ttGiOmBNYTf6pLr4xXHAT5uctHb092PBszndLDR5XA/jghQvn4n7JMHl7dmTgbm9w==}
+  '@babel/runtime@7.26.7':
+    resolution: {integrity: sha512-AOPI3D+a8dXnja+iwsUqGRjr1BbZIe771sXdapOtYI531gSqpi92vXivKcq2asu/DFpdl1ceFAKZyRzK2PCVcQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.25.9':
@@ -2631,8 +2631,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  i18next@24.0.5:
-    resolution: {integrity: sha512-1jSdEzgFPGLZRsQwydoMFCBBaV+PmrVEO5WhANllZPX4y2JSGTxUjJ+xVklHIsiS95uR8gYc/y0hYZWevucNjg==}
+  i18next@24.2.2:
+    resolution: {integrity: sha512-NE6i86lBCKRYZa5TaUDkU5S4HFgLIEJRLr3Whf2psgaxBleQ2LC1YW1Vc+SCgkAW7VEzndT6al6+CzegSUHcTQ==}
     peerDependencies:
       typescript: ^5
     peerDependenciesMeta:
@@ -4808,13 +4808,13 @@ snapshots:
     dependencies:
       yaml: 2.6.0
 
-  '@astrolicious/i18n@0.6.0(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)':
+  '@astrolicious/i18n@0.6.0(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.2.2(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)':
     dependencies:
       '@inox-tools/aik-route-config': 0.7.4(@types/node@22.7.7)(astro-integration-kit@0.16.1(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0)))(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(lightningcss@1.27.0)(terser@5.36.0)
       astro: 5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0)
       astro-integration-kit: 0.16.1(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))
       astro-pages: 0.3.0(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))
-      i18next: 24.0.5(typescript@5.7.2)
+      i18next: 24.2.2(typescript@5.7.2)
       sitemap: 7.1.2
       typescript: 5.7.2
       ufo: 1.5.4
@@ -4830,13 +4830,13 @@ snapshots:
       - supports-color
       - terser
 
-  '@astrolicious/i18n@0.6.0(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)':
+  '@astrolicious/i18n@0.6.0(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.2.2(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)':
     dependencies:
       '@inox-tools/aik-route-config': 0.7.4(@types/node@22.7.7)(astro-integration-kit@0.16.1(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0)))(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(lightningcss@1.27.0)(terser@5.36.0)
       astro: 5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0)
       astro-integration-kit: 0.16.1(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))
       astro-pages: 0.3.0(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))
-      i18next: 24.0.5(typescript@5.7.2)
+      i18next: 24.2.2(typescript@5.7.2)
       sitemap: 7.1.2
       typescript: 5.7.2
       ufo: 1.5.4
@@ -4876,7 +4876,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.0
 
-  '@babel/runtime@7.25.7':
+  '@babel/runtime@7.26.7':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -5295,14 +5295,14 @@ snapshots:
 
   '@jimp/bmp@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
       bmp-js: 0.1.0
 
   '@jimp/core@0.14.0':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/utils': 0.14.0
       any-base: 1.1.0
       buffer: 5.7.1
@@ -5318,14 +5318,14 @@ snapshots:
 
   '@jimp/custom@0.14.0':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/core': 0.14.0
     transitivePeerDependencies:
       - debug
 
   '@jimp/gif@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
       gifwrap: 0.9.4
@@ -5333,39 +5333,39 @@ snapshots:
 
   '@jimp/jpeg@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
       jpeg-js: 0.4.4
 
   '@jimp/plugin-blit@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-blur@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-circle@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-color@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
       tinycolor2: 1.6.0
 
   '@jimp/plugin-contain@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-blit@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-scale@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0)))':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-blit': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/plugin-resize': 0.14.0(@jimp/custom@0.14.0)
@@ -5374,7 +5374,7 @@ snapshots:
 
   '@jimp/plugin-cover@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-crop@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-scale@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0)))':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-crop': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/plugin-resize': 0.14.0(@jimp/custom@0.14.0)
@@ -5383,62 +5383,62 @@ snapshots:
 
   '@jimp/plugin-crop@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-displace@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-dither@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-fisheye@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-flip@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-rotate@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-blit@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-crop@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0)))':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-rotate': 0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-blit@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-crop@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0))
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-gaussian@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-invert@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-mask@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-normalize@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-print@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-blit@0.14.0(@jimp/custom@0.14.0))':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-blit': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/utils': 0.14.0
@@ -5448,13 +5448,13 @@ snapshots:
 
   '@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-rotate@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-blit@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-crop@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0))':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-blit': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/plugin-crop': 0.14.0(@jimp/custom@0.14.0)
@@ -5463,14 +5463,14 @@ snapshots:
 
   '@jimp/plugin-scale@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0))':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-resize': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/utils': 0.14.0
 
   '@jimp/plugin-shadow@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-blur@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0))':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-blur': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/plugin-resize': 0.14.0(@jimp/custom@0.14.0)
@@ -5478,7 +5478,7 @@ snapshots:
 
   '@jimp/plugin-threshold@0.14.0(@jimp/custom@0.14.0)(@jimp/plugin-color@0.14.0(@jimp/custom@0.14.0))(@jimp/plugin-resize@0.14.0(@jimp/custom@0.14.0))':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-color': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/plugin-resize': 0.14.0(@jimp/custom@0.14.0)
@@ -5486,7 +5486,7 @@ snapshots:
 
   '@jimp/plugins@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugin-blit': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/plugin-blur': 0.14.0(@jimp/custom@0.14.0)
@@ -5515,20 +5515,20 @@ snapshots:
 
   '@jimp/png@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/utils': 0.14.0
       pngjs: 3.4.0
 
   '@jimp/tiff@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       utif: 2.0.1
 
   '@jimp/types@0.14.0(@jimp/custom@0.14.0)':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/bmp': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/custom': 0.14.0
       '@jimp/gif': 0.14.0(@jimp/custom@0.14.0)
@@ -5539,7 +5539,7 @@ snapshots:
 
   '@jimp/utils@0.14.0':
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       regenerator-runtime: 0.13.11
 
   '@jridgewell/gen-mapping@0.3.5':
@@ -7789,9 +7789,9 @@ snapshots:
 
   husky@9.1.7: {}
 
-  i18next@24.0.5(typescript@5.7.2):
+  i18next@24.2.2(typescript@5.7.2):
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
     optionalDependencies:
       typescript: 5.7.2
 
@@ -7968,7 +7968,7 @@ snapshots:
 
   jimp@0.14.0:
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.26.7
       '@jimp/custom': 0.14.0
       '@jimp/plugins': 0.14.0(@jimp/custom@0.14.0)
       '@jimp/types': 0.14.0(@jimp/custom@0.14.0)
