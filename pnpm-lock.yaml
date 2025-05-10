@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@astrolicious/i18n':
-        specifier: 0.6.0
-        version: 0.6.0(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
+        specifier: 0.6.1
+        version: 0.6.1(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
       '@fontsource-variable/inter':
         specifier: 5.1.0
         version: 5.1.0
@@ -115,8 +115,8 @@ importers:
         specifier: 0.9.4
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.2)
       '@astrolicious/i18n':
-        specifier: 0.6.0
-        version: 0.6.0(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
+        specifier: 0.6.1
+        version: 0.6.1(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)
       '@fontsource-variable/inter':
         specifier: 5.1.0
         version: 5.1.0
@@ -261,8 +261,8 @@ packages:
   '@astrojs/yaml2ts@0.2.1':
     resolution: {integrity: sha512-CBaNwDQJz20E5WxzQh4thLVfhB3JEEGz72wRA+oJp6fQR37QLAqXZJU0mHC+yqMOQ6oj0GfRPJrz6hjf+zm6zA==}
 
-  '@astrolicious/i18n@0.6.0':
-    resolution: {integrity: sha512-pOojMoNopDzLD5ccB94fyVAzMjMD7W/d3kdRCTO0BX0RcWTzXO7I2Sw+HuQec0vapTKeRlwRGtqxJDom1CqU0w==}
+  '@astrolicious/i18n@0.6.1':
+    resolution: {integrity: sha512-ZvDCc8t6HG4/SBJp5nmjDXOGFrPyMZeIjLG9G/i3CkbfC/RHzmhSMHt+iYzBO6yExeLYpK0fsEDEWZDlFxdLqw==}
     peerDependencies:
       astro: ^4.14.0 || ^5.0.0
       i18next: ^23.0.0
@@ -4808,7 +4808,7 @@ snapshots:
     dependencies:
       yaml: 2.6.0
 
-  '@astrolicious/i18n@0.6.0(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)':
+  '@astrolicious/i18n@0.6.1(@types/node@22.7.7)(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)':
     dependencies:
       '@inox-tools/aik-route-config': 0.7.4(@types/node@22.7.7)(astro-integration-kit@0.16.1(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0)))(astro@5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(lightningcss@1.27.0)(terser@5.36.0)
       astro: 5.0.3(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0)
@@ -4830,7 +4830,7 @@ snapshots:
       - supports-color
       - terser
 
-  '@astrolicious/i18n@0.6.0(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)':
+  '@astrolicious/i18n@0.6.1(@types/node@22.7.7)(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(i18next@24.0.5(typescript@5.7.2))(lightningcss@1.27.0)(terser@5.36.0)':
     dependencies:
       '@inox-tools/aik-route-config': 0.7.4(@types/node@22.7.7)(astro-integration-kit@0.16.1(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0)))(astro@5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0))(lightningcss@1.27.0)(terser@5.36.0)
       astro: 5.0.4(@types/node@22.7.7)(lightningcss@1.27.0)(rollup@4.24.0)(terser@5.36.0)(typescript@5.7.2)(yaml@2.6.0)
